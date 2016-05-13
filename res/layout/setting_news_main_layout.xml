@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/settingNews_frame_sound"
+        style="@style/setting_frameLayout_1"
+        android:layout_marginTop="14dip"
+        android:background="@drawable/item_top_bg_selector" >
+
+        <TextView
+            style="@style/setting_mianText"
+            android:text="@string/setting_news_sound" />
+
+        <TextView
+            android:id="@+id/settingNews_txt_sound"
+            style="@style/setting_desText"
+            android:layout_marginRight="50dp" 
+            android:text="@string/setting_toggle_on"/>
+
+        <ImageView
+            android:id="@+id/settingNews_img_sound"
+            style="@style/setting_toggleIcon" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/settingNews_frame_vibrate"
+        style="@style/setting_frameLayout_1"
+        android:background="@drawable/item_middle_bg_selector" >
+
+        <TextView
+            style="@style/setting_mianText"
+            android:text="@string/setting_news_vibrate" />
+
+        <TextView
+            android:id="@+id/settingNews_txt_vibrate"
+            style="@style/setting_desText"
+            android:layout_marginRight="50dp" 
+            android:text="@string/setting_toggle_on"/>
+
+        <ImageView
+            android:id="@+id/settingNews_img_vibrate"
+            style="@style/setting_toggleIcon" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/settingNews_frame_background"
+        style="@style/setting_frameLayout_1"
+        android:background="@drawable/item_bottom_bg_selector" >
+
+        <TextView
+            style="@style/setting_mianText"
+            android:text="@string/setting_news_background" />
+
+        <TextView
+            android:id="@+id/settingNews_txt_background"
+            style="@style/setting_desText"
+            android:layout_marginRight="50dp" 
+            android:text="@string/setting_toggle_on"/>
+
+        <ImageView
+            android:id="@+id/settingNews_img_background"
+            style="@style/setting_toggleIcon" />
+    </FrameLayout>
+
+</LinearLayout>

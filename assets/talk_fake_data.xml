@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <fake_talk>
+     <fake_data id="comments">
+         <message from="user_b_id@talk.sixin.com" to="user_a_id@talk.sixin.com" fname="张三" id="123456789" type="notification">
+             <comment create_timestamp = "135669808430">
+                 <user profile_picture_url="http://image.renren.com/12321370.jpg">
+                 </user>
+			    <text>照片不错</text>
+			    <feed id = "1234">
+			    </feed>
+			  </comment>
+         </message>
+         
+         <message from="user_b_id@talk.sixin.com" to="user_a_id@talk.sixin.com" fname="张三" id="123456789" type="notification">
+		  <comment create_timestamp="135669808430">
+		     <user profile_picture_url="http://image.renren.com/12321370.jpg">
+		    </user>
+		    <text>照片不错</text>
+		    <voice url="http://voice.renrne.com/4938240.wav" duration="10">
+		    </voice>
+		    <feed id="1234" />
+		  </comment>
+		</message>
+		
+        <message from="user_b_id@talk.sixin.com" to="user_a_id@talk.sixin.com" fname="张三" id="123456789" type="notification">
+		  <like create_timestamp="135669808430">
+		     <user profile_picture_url="http://image.renren.com/12321370.jpg">
+		    </user>
+		    <text>user_b喜欢了你的{feed}</text>
+		    <feed id="1234" />    
+		  </like>
+		</message>
+		
+         <message from="user_b_id@talk.sixin.com" to="user_a_id@talk.sixin.com" fname="系统管理员" id="123456789" type="notification">
+		  <delete_post create_timestamp="135669808430">
+		    <user>
+		      <profile_picture_url>http://image.renren.com/12321370.jpg</profile_picture_url>
+		    </user>
+		    <body type="text">
+		      <text>由于你发布的内容被举报多次，删贴！</text>
+		    </body>    
+		    <feed id="1234" />   
+		  </delete_post>
+		</message>
+		
+         <message from="user_b_id@talk.sixin.com" to="user_a_id@talk.sixin.com" fname="系统管理员" id="123456789" type="notification">
+		  <system create_timestamp="135669808430">
+		    <user>
+		      <profile_picture_url>http://image.renren.com/12321370.jpg</profile_picture_url>
+		    </user>
+		    <text>校内将举行校园之星选举！</text>
+		    <image>
+		      <thumbnail url="http://image.renren.com/730837410.jpg" width="400" height="600" />
+		    </image>
+		  </system>
+		</message>
+
+         
+     </fake_data>
+     
+ </fake_talk>

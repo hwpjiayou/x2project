@@ -1,0 +1,10 @@
+<resources>
+    <color name="title_bar_background_color">#ff256883</color>
+    <color name="background">#FFFFFFFF</color>
+    <color name="c_poi_button">#005092</color>
+    <color name="t4">#c63927</color>
+    <color name="t5">#c6c6c6</color>
+    <color name="t8">#afafaf</color>
+    <color name="t1">#000000</color>
+    <color name="t18">#7c7c7c</color>
+</resources>

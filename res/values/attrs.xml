@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!--? add by dingwei.chen start ?-->
+    <declare-styleable name="VoiceView">
+        <attr format="color" name="background_color" />
+        <attr format="color" name="alert_line_color" />
+        <attr format="color" name="line_color" />
+        <attr format="string|reference" name="cancel_send" localization="suggested"/>
+        <attr format="string|reference" name="record_less" localization="suggested"/>
+        <attr format="string|reference" name="record_over" localization="suggested"/>
+        <attr format="string|reference" name="move_to_cancel" localization="suggested"/>
+    </declare-styleable>
+    
+    <declare-styleable name="AttachLayout">
+        <attr format="reference" name="attach_loading"/>
+        <attr format="reference" name="attach_error" />
+        <attr format="reference" name="attach_unlisten"/>
+        <attr format="reference" name="attach_domain" />
+        <attr format="reference" name="attach_unlisten_src"/>
+        <attr format="reference" name="attach_domain_src" />
+        <attr format="reference" name="attach_error_src" />
+        <attr format="dimension" name="left_padding" />
+        <attr format="dimension" name="right_padding" />
+        <attr format="dimension" name="loading_width" />
+        <attr format="dimension" name="loading_height" />
+        <attr format="boolean" name="attach_right"/>
+    </declare-styleable>
+    
+    <declare-styleable name="RecordButton">
+        <attr format="string|reference" name="text_up" localization="suggested"/>
+        <attr format="string|reference" name="text_down" localization="suggested"/>
+    </declare-styleable>
+     <!--? add by dingwei.chen end ?-->
+
+    <declare-styleable name="HorizontalFlipLayout">
+        <attr name="left_offset" format="dimension"/>
+        <attr name="right_offset" format="dimension"/>
+        <attr name="top_offset" format="dimension"/>
+        <attr name="bottom_offset" format="dimension"/>
+        <attr name="track" format="string"/>
+        <attr name="tap_back_area" format="string"/>
+    </declare-styleable>
+</resources>

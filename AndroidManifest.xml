@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.renren.mobile.x2"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <!-- SDK -->
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="14"/>
+
+    <!-- Feature -->
+
+
+    <!-- Permission -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.renren.mobile.android.permission.PERMISSION_ADD_ACCOUNT"/>
+    <uses-permission android:name="com.renren.mobile.chat.permission.PERMISSION_ADD_ACCOUNT"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+
+    <!-- Application -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+            android:name=".RenrenChatApplication"
+            android:icon="@drawable/v1_logo"
+            android:theme="@style/DefaultTheme"
+            android:label="@string/app_name">
+
+        <!-- Activities -->  <!--   -->
+        <activity
+                android:name=".components.home.HomeActivity"
+                android:hardwareAccelerated="true"
+                android:screenOrientation="portrait"
+                android:configChanges="screenSize|navigation|keyboardHidden|orientation"
+                android:windowSoftInputMode="adjustUnspecified|stateHidden"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+
+        <!-- login -->
+        <activity android:name=".components.login.WelcomeActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".components.login.LoginActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateVisible|adjustPan"
+                  android:configChanges="screenSize|navigation|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".components.login.RenrenLoginActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="adjustResize|stateHidden"
+                ></activity>
+        <activity android:name=".components.login.SynInfoActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+        <activity android:name=".components.login.CompleteSchoolInfoActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+        <activity android:name=".components.login.SelectCollegeActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateVisible|adjustResize|stateVisible"></activity>
+        <activity android:name=".components.login.UserGuideActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+        <activity android:name=".components.login.InviteFriendsActivity"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+
+        <!--  -->
+        <activity
+                android:name=".components.comment.CommentActivity"
+
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                android:configChanges="screenSize|navigation|keyboardHidden|orientation">
+            <!--   android:windowSoftInputMode="stateHidden|adjustResize"   android:launchMode="singleTask"  -->
+        </activity>
+
+        <activity android:name=".components.comment.ChatActivityDemo">
+        </activity>
+
+        <activity android:name=".components.imageviewer.ImageViewActivity"/>
+        <activity android:name=".components.home.profile.ProfileActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity
+                android:name=".components.publisher.PublisherActivity"
+                android:windowSoftInputMode="adjustResize|stateHidden">
+        </activity>
+        <activity
+                android:name=".components.publisher.PublisherFragmentActivity"
+                android:configChanges="screenSize|navigation|keyboardHidden|orientation"
+                android:hardwareAccelerated="true"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
+                android:name=".components.publisher.PublisherLocationActivity"
+                android:configChanges="screenSize|navigation|keyboardHidden|orientation"
+                android:hardwareAccelerated="true"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+                android:name=".components.publisher.PublisherSelectorActivity"
+                android:configChanges="screenSize|navigation|keyboardHidden|orientation"
+                android:hardwareAccelerated="true"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity android:name=".components.publisher.ImageEditActivity"/>
+        <activity
+                android:name=".components.publisher.FilterActivity"
+                android:configChanges="screenSize|navigation|keyboardHidden|orientation"
+                android:screenOrientation="portrait"/>
+
+        <activity android:name=".base.refresh.TestCoverRefresherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".emotion.EmotionTestActivity"/>
+        <activity android:name=".utils.voice.VoiceTestActivity"/>
+        <activity android:name=".components.photoupload.HeadEditActivity"
+                  android:configChanges="screenSize|navigation|keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait"/>
+        <!--   <activity android:name=".utils.voice.VoiceTestActivity"/> -->
+
+        <activity
+                android:name=".components.chat.RenRenChatActivity"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden|adjustResize"
+                android:configChanges="screenSize|navigation|keyboardHidden|orientation"
+                android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".components.chat.chatmessages.ChatMessagesActivity"
+                  android:configChanges="screenSize|navigation|keyboardHidden|orientation"/>
+
+        <!-- test activities -->
+
+        <!-- Services -->
+        <service android:name=".service.RemoteService" android:process=":push">
+            <intent-filter>
+                <action android:name="com.renren.mobile.chat.ACTION_CHAT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.renren.mobile.chat.ACTION_SESSION"/>
+            </intent-filter>
+        </service>
+
+        <!-- Receivers -->
+        <receiver android:name="com.renren.mobile.x2.components.home.BubbleCountReceiver">
+            <intent-filter>
+                <action android:name="com.renren.mobile.x2.action.BUBBLE_COUNT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.renren.mobile.x2.service.RenRenChatReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+
+
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".service.PushMessagesReceiver">
+            <intent-filter>
+                <action android:name="com.renren.mobile.x2.push.PushMessages"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+                android:name=".components.home.setting.SettingInfoActivity"
+                android:screenOrientation="portrait"
+                android:configChanges="screenSize|navigation|keyboardHidden|orientation"
+                android:windowSoftInputMode="adjustUnspecified|stateHidden">
+        </activity>
+        <activity
+                android:name=".components.chat.notification.ChatNotificationCancel"
+                android:configChanges="orientation|keyboardHidden"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+                android:name=".components.message.notification.MessageNotificationCancel"
+                android:configChanges="orientation|keyboardHidden"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+
+    </application>
+
+</manifest>

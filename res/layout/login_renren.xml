@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/ykn_common_horizontal"
+            android:paddingRight="@dimen/ykn_common_horizontal" >
+
+            <!--  
+            <TextView
+                android:id="@+id/text"
+                style="@style/T1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/ykn_common_vertical"
+                android:text="已检测到你的人人账号，您可以使用该人人账号登录" />
+                -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/ykn_common_vertical" >
+
+                <FrameLayout
+                    android:layout_width="66dip"
+                    android:layout_height="66dip" >
+
+                    <ImageView
+                        android:id="@+id/avatar"
+                        android:layout_width="58dip"
+                        android:layout_height="58dip"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="4dip"
+                        android:layout_marginRight="4dip"
+                        android:layout_marginTop="2dip"
+                        android:scaleType="centerCrop" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/user_info"
+                    style="@style/T1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="3dip"
+                    android:text="" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login_authorize"
+                style="@style/T9"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/ykn_common_height_button"
+                android:layout_marginTop="@dimen/ykn_common_vertical"
+                android:background="@drawable/v1_login_button_background_selector" 
+                android:textSize="@dimen/ykn_common_textsize_button" />
+
+            <Button
+                android:id="@+id/login_other"
+                style="@style/T9"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/ykn_common_height_button"
+                android:layout_marginTop="@dimen/ykn_common_vertical"
+                android:background="@drawable/v1_login_button_background_selector"
+                android:text="不是你？"
+                android:textSize="@dimen/ykn_common_textsize_button" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

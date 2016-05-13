@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView 
+            android:id="@+id/pop_message"
+        	android:layout_width="130dip"
+    		android:layout_height="45dip"  
+    		android:textSize="12sp"
+    		android:textColor="@color/chat_voice_pop_message"
+    		android:background="@drawable/v1_chat_voice_pop_message"
+    		android:gravity="center"
+        />
+</merge>

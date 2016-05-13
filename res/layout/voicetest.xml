@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+    
+    <TableLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:stretchColumns="*">
+        <TableRow >
+            <TextView 
+	        android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_span="2"
+		    android:text="New接口 测试"
+		    android:textColor="#FF0000"
+		    android:background="#ffffff"
+		    android:gravity="center"
+		    android:padding="10dp"/>
+        </TableRow>
+<!--        <TableRow >
+            <Button 
+		    android:id="@+id/gzip"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="gzip"/>
+        </TableRow>
+        
+        <TableRow >
+            <Button 
+		    android:id="@+id/cover"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="上传Cover"/>
+        </TableRow> -->
+        <TableRow >
+            <Button 
+		    android:id="@+id/imgpost"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Img Feed"/>
+            <Button 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Nothing"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+		    android:id="@+id/sendpost"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="发帖"/>
+            <Button 
+		    android:id="@+id/deletepost"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="删帖"/>
+        </TableRow>
+        <TableRow >
+            <TextView  android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_span="2"
+		    android:text="log中用 jason 做为过滤条件，查看每十条feed中Type为image的url是否为空,请求一次分页看一次log,如果想测试feed中某些字段的数据，可以改下属性代码即可"/>
+        </TableRow>
+        <TableRow >
+            <TextView
+		    android:id="@+id/pageText"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text=""/>
+            <Button 
+		    android:id="@+id/page"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="feeds分页"/>
+        </TableRow>
+        
+        <TableRow >  
+            <Button 
+		    android:id="@+id/sendcomment"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="发评"/>
+            <Button 
+		    android:id="@+id/deletecomment"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="删评"/>
+        </TableRow>
+ <!--        <TableRow >
+            <Button 
+		    android:id="@+id/sendvoicecomment"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_span="2"
+		    android:text="发条语音评论"/>
+        </TableRow> -->
+        <TableRow >
+            <Button 
+		    android:id="@+id/getcomment"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_span="2"
+		    android:text="查评"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+		    android:id="@+id/sendlike"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="发赞"/>  
+            <Button 
+		    android:id="@+id/deletelike"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="删赞"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+		    android:id="@+id/getfeed"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="获feed"/>
+            <Button 
+            android:id="@+id/getfeeds"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Feeds"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+            android:id="@+id/myfeeds"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="MyFeeds"/>
+            <Button 
+            android:id="@+id/others"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="other's feed"/>
+       	</TableRow>
+        <TableRow > 
+            <Button 
+            android:id="@+id/locate"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="location"/>
+            
+            <Button 
+            android:id="@+id/neighbors"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="neighbors"/>
+            
+        </TableRow>
+        <TableRow >
+            <Button 
+            android:id="@+id/topten"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="topTen"/>     
+		    <Button 
+            android:id="@+id/profile"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="profile"/>
+        </TableRow>
+        <TableRow >
+	        <EditText 
+	            android:id="@+id/school"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="北京"/>
+	        <Button 
+			    android:id="@+id/sschool"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_span="1"
+			    android:text="查学校"/>
+            
+        </TableRow>
+        <TableRow >
+            <EditText 
+	            android:id="@+id/department"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="1002"/>
+	        <Button 
+			    android:id="@+id/sdepartment"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_span="1"
+			    android:text="查院系"/>
+        </TableRow>
+        <TableRow >
+            <TextView 
+            	android:id="@+id/updatetip"	
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_span="2"
+	            android:text="测试数据是见代码：VoiceTestActivity中的update.onClickListener"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+			    android:id="@+id/update"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_span="2"
+			    android:text="更新用户信息"/>
+        </TableRow>
+        <TableRow >
+            <TextView 
+		        android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:text="测试接口 END"
+			    android:textColor="#FF0000"
+			    android:background="#ffffff"
+			    android:gravity="center"
+			    android:layout_span="2"
+			    android:padding="10dp"/>
+        </TableRow>
+        <TableRow >
+            <TextView 
+		        android:id="@+id/tip"
+		        android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_span="2"
+			    android:text="简单的demo,点击say开始说话，点击stop ，保存文件，点击 play 播放"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+			    android:id="@+id/say"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="录Feed语音"/>
+			<Button 
+			    android:id="@+id/shutup"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="停止录音"/>
+		</TableRow>
+        <TableRow >
+			<Button 
+			    android:id="@+id/play"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_span="2"
+			    android:text="播放"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+			    android:id="@+id/send"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="传语音"/>
+			<Button 
+			    android:id="@+id/getvoice"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="下语音"/>
+		</TableRow>
+        <TableRow >
+            <Button 
+			    android:id="@+id/uploadp"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="传图片"/>
+			
+			<Button 
+			    android:id="@+id/uploadh"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="传头像"/>
+        </TableRow>
+        <TableRow >
+            <TextView 
+		        android:id="@+id/tip"
+		        android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_span="2"
+			    android:text="测试发送多条feed的时候请关闭网络,发送完成后，手动恢复网络，之后请点击按钮，测试请求池的数量"/>
+        </TableRow>
+        <TableRow >
+            <EditText 
+	            android:id="@+id/textSend"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_span="2"
+	            android:text="Feed所发文本"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+			    android:id="@+id/getImg"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_span="2"
+			    android:text="获取Feed所发图片"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+			    android:id="@+id/sendfeed"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="发Feed"/>
+			<Button 
+			    android:id="@+id/sendofflinefeed"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="发离线"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+			    android:id="@+id/getOutlineIds"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="离线IDs"/>
+            <Button 
+			    android:id="@+id/getOutlineNum"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="离线数"/>
+        </TableRow>
+        <TableRow >
+            <Button 
+			    android:id="@+id/recoverQueueFromFile"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_span="2"
+			    android:text="从文件恢复离线队列发送"/>
+        </TableRow>
+        <TableRow >
+            <TextView 
+		        android:id="@+id/tipFile"
+		        android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_span="2"
+			    android:text="存File对应将离线队列存入文件，读File对应从文件中读取离线队列并发送"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+</ScrollView>

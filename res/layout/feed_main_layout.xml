@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:voice="http://schemas.android.com/apk/res/com.renren.mobile.x2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/wiate"
+    >
+    
+    <com.renren.mobile.x2.components.chat.view.VoiceView
+            android:id="@+id/feed_chatmain_voiceview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            voice:alert_line_color="#ef5c30"
+            voice:background_color="#d84a5154"
+            voice:cancel_send="松开取消发送"
+            voice:line_color="#ffdb00"
+            voice:move_to_cancel="滑动到此取消发送"
+            voice:record_less="语音时间过短"
+            voice:record_over="语音录制即将结束" />
+        <!-- 提示切换成听筒或扬声器 -->
+
+     <include layout="@layout/chat_main_switch_speaker" />
+    
+	<ProgressBar 
+	    android:id="@+id/feed_main_progressbar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:visibility="gone"
+	    />
+	<LinearLayout 
+	    android:id="@+id/feed_main_linearlayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    ></LinearLayout>
+	<com.renren.mobile.x2.components.chat.view.InputBar
+        android:id="@+id/feed_chatmain_inputbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+         />
+</RelativeLayout>

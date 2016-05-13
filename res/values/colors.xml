@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   <color name="white">#FFFFFFFF</color> 
+   <color name="chat_black">#FF000000</color>
+   <color name="hint_color">#c6c6c6</color>
+  
+   
+   <color name="chat_record_select_color">#FFafafaf</color>
+   <color name="chat_voice_pop_message">#FFdc4c4c</color>
+   <color name="chat_voice_circle">#FFf9bf0c</color>
+   <color name="message_notification">#FF0000ff</color>
+   
+   <drawable name="chatlist_item_divider">#c8c8c8</drawable>
+   <drawable name="chatlist_item_normal">#FFFFFFFF</drawable>
+   <drawable name="chatlist_item_pressed">#c41313</drawable>
+   <drawable name="textcursor">#FF000000</drawable>
+   
+   <color name="common_list_view_divider_color">#e8e8e8</color>
+   <drawable name="chatlist_background">#f0f0f0</drawable>
+   
+</resources>

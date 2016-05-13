@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="6dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/preview_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/publish_filter_previea_select" >
+
+        <com.renren.mobile.x2.utils.img.TransformImageView
+            android:id="@+id/preview_image"
+            android:layout_width="66dip"
+            android:layout_height="66dip"
+            android:padding="6dip"
+            android:background="@drawable/publish_filter_preview_unselect" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/filter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ttt" />
+
+</LinearLayout>

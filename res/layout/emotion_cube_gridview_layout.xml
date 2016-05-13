@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:numColumns="4"
+    android:paddingTop="10dip"
+    android:paddingBottom="20dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+	android:horizontalSpacing="4dip"
+	android:verticalSpacing="14dip"
+>
+    
+
+</GridView>

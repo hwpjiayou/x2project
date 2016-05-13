@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 从远端发送过来的文本消息 start -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sixin="http://schemas.android.com/apk/res/com.renren.mobile.x2"
+    android:id="@+id/chat_voice_from_linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dip"
+    android:orientation="horizontal" >
+
+    <!-- 头像 -->
+    <FrameLayout
+        android:id="@+id/chat_voice_head_linearlayout"
+        android:layout_width="46dip"
+        android:layout_height="46dip"
+        android:layout_gravity="bottom" >
+        <ImageView
+            android:id="@+id/chat_voice_head_imageview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="4dip"
+            android:paddingTop="2dip"
+            android:paddingRight="4dip"
+            android:paddingBottom="6dip"
+            android:layout_gravity="center"
+            android:src="@drawable/v1_default_male" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/v1_head_cover_46_transparent" />
+    </FrameLayout>
+    <!-- 消息内容区域 -->
+
+    <com.renren.mobile.x2.components.chat.view.ListItemLayout
+        android:id="@+id/chat_voice_content_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+
+        <com.renren.mobile.x2.components.chat.view.AttachLayout
+            android:id="@+id/cdw_chat_listview_item_voice_attach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sixin:attach_domain="@+id/cdw_chat_listview_item_domain"
+            sixin:attach_domain_src="@drawable/test_default"
+            sixin:attach_error="@+id/cdw_chat_listview_item_send_error_imageview"
+            sixin:attach_error_src="@drawable/test_default"
+            sixin:attach_loading="@+id/cdw_chat_listview_item_loading"
+            sixin:attach_unlisten="@+id/cdw_chat_listview_item_voice_unlisten"
+            sixin:attach_unlisten_src="@drawable/test_default"
+            sixin:left_padding="6dip"
+            sixin:loading_height="20dip"
+            sixin:loading_width="20dip" />
+        <com.renren.mobile.x2.components.chat.view.ListViewContentLayout
+        android:id="@+id/chat_listview_item_content_viewgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="42dip"
+        android:background="@drawable/chat_listview_item_left"
+        android:orientation="vertical"
+        android:gravity="center" >
+<!--         新鲜事模块 -->
+<!--         <com.renren.mobile.x2.components.chat.view..ChatFeedView -->
+<!--         android:id="@+id/cdw_feed_view" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="center_vertical" -->
+<!--         android:orientation="vertical"/> -->
+<!--         文本 -->
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/chat_listview_item_from_text"/>
+<!--         语音 -->
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/chat_listview_item_from_voice"/>
+<!--         图片 -->
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/chat_listview_item_from_image"/>
+<!--         flash 消息 -->
+        <include android:layout_width="150dip" android:layout_height="150dip" layout="@layout/chat_listview_item_from_flash"/>
+        </com.renren.mobile.x2.components.chat.view.ListViewContentLayout>
+
+    </com.renren.mobile.x2.components.chat.view.ListItemLayout>
+
+</LinearLayout>

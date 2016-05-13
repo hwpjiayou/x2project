@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/cdw_chat_choice_select_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/test_chat_choice_select" >
+
+        <TextView
+            android:id="@+id/cdw_chat_choice_select_container_copy_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:text="@string/chat_copy"/>
+
+        <TextView
+            android:id="@+id/cdw_chat_choice_select_container_delete_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:text="@string/chat_del" />
+
+        <TextView
+            android:id="@+id/cdw_chat_choice_select_container_forward_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:text="@string/chat_transmit" />
+    </LinearLayout>
+
+</LinearLayout>

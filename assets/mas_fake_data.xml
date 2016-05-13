@@ -1,0 +1,2981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<methods>
+
+    <method id="http://123.125.42.190:8080/api/sixin/3.0/user/login/renren" >
+
+        <json>
+            {
+			    "profile_info": {
+			        "first_name": "",
+			        "school": [
+			            {
+			                "name": "西安工程大学"
+			            }
+			        ],
+			        "profile_image": {
+			            "medium_url": "http://hdn.xnimg.cn/photos/hdn321/20110928/2100/h_main_VtjZ_20910000d90b2f75.jpg",
+			            "original_url": "http://hdn.xnimg.cn/photos/hdn321/20110928/2100/h_large_4ZNp_20910000d90b2f75.jpg",
+			            "large_url": "http://a.xnimg.cn/wap/head/200.png"
+			        },
+			        "name": "宁长胜",
+			        "employer": [
+			            {
+			                "name": "千橡互动"
+			            }
+			        ],
+			        "birth_day": {
+			            "month": 1,
+			            "year": 1981,
+			            "day": 30
+			        },
+			        "last_name": "",
+			        "birth_display": "1981-1-30",
+			        "gender": 1,
+			        "domain_name": "talk.sixin.com",
+			        "user_id": 1221186737,
+			        "relationship_type": 0
+			    },
+			    "fill_stage": 0,
+			    "bind_info": [
+			        {
+			            "medium_url": "",
+			            "bind_id": "13241643358",
+			            "type": "mobile",
+			            "page": "",
+			            "name": ""
+			        },
+			        {
+			            "medium_url": "",
+			            "bind_id": "xuehu54321@126.com",
+			            "type": "email",
+			            "page": "",
+			            "name": ""
+			        },
+			        {
+			            "medium_url": "",
+			            "bind_id": "221186737",
+			            "type": "renren",
+			            "page": "http://mt.renren.com/profile/221186737",
+			            "name": "宁长胜"
+			        }
+			    ],
+			    "secret_key": "7caee16244e6b041f5fd0d8c81ea098e",
+			    "session_key": "3e1rsPaJIQtSjxF8k",
+			    "is_first_login": 1
+			}
+        </json>
+    </method>
+
+    <method id="http://123.125.42.190:8080/api/sixin/3.0/contact/getUserInfoById" >
+
+        <json>
+            {
+	            "user_id": "221186737",
+	            "name": "宁长胜",
+	            "gender": 1,
+	            "head_url": "http://www.qqtouxiang888.com/uploads/allimg/100826/jsa6.jpg",
+	            "birth_day": "1981-1-30",
+	            "enRolling": "2011入学",
+			    "department": "数学系",
+			    "fansNum": "54",
+			    "attentionNum": "41",
+	            "school": "西安工程大学",
+	            "coverUrl": "http://img104.ph.126.net/ozVPElRnxnr6RudLrhrjMQ==/2026901307295296513.jpg"
+            }
+        </json>
+    </method>
+
+    <method id="http://123.125.42.190:8080/api/sixin/3.0/place/friendList" >
+
+        <json>
+            {
+			    "count": 117,
+			    "friends_list": [
+			      	       {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn321/20111022/1855/tiny_mkRe_77024k019117.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "安林",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn121/20120403/1920/tiny_9B29_88110c019118.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "白乐",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn521/20120504/1100/tiny_dbpD_64536j019118.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "白燕",
+			            "gender":0,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn321/20120706/0000/tiny_8yfE_1b4400018a801375.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "蔡青青",
+			            "gender":0,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn221/20110806/2255/tiny_TNYS_44715p019118.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "蔡萧潜",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn321/20100526/1910/tiny_p3WP_103540o019116.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "陈明上",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn121/20110917/1045/tiny_eyFK_401737b019118.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "董丽娜",
+			            "gender":0,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn521/20110905/1635/tiny_sMUN_298149l019118.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "第五文静",
+			            "gender":0,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn421/20100613/0220/tiny_lGXx_90886p019117.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "陈家园",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn321/20121009/1010/h_tiny_HYME_2a6c000016621376.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "牛璐",
+			            "gender":0,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },   {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn421/20121015/0840/h_tiny_ifcy_62170000df991375.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "崔佳宇",
+			            "gender":0,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是牛璐",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1229120320,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },
+			      
+			        {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn321/20121009/1010/h_tiny_HYME_2a6c000016621376.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "陈峰",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是陈峰，我是陈峰",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1462330093,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },
+			                       {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn121/20110721/2240/h_tiny_hzVC_693e0001720b2f75.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "夏佳",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "盐王爷？",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1222242934,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },
+			                       {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn421/20120906/1630/tiny_Umxy_639b000238851375.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "侯文鹏",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是侯文鹏 我是侯文鹏",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1238436809,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },
+			                       {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn321/20091212/1930/h_tiny_L9JT_439b00003fe32f76.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "晓玥",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是晓玥 我是晓玥",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1256043999,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },
+			                  {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn121/20111202/1650/h_tiny_CSNY_55a900011df52f75.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "宁长胜",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": " 我是 宁长胜",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1221186737,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },
+			        
+			             {
+			            "add_time": 1300347608000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn521/20121025/1955/tiny_vkuW_6cd000031ab71376.jpg",
+			            "latitude_gps": 39958278,
+			            "latitude_poi": 39959663,
+			            "locate_type": 0,
+			            "longitude_gps": 116434009,
+			            "longitude_poi": 116440223,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/main_oxmf_42571i204237.jpg",
+			            "user_name": "郑小超",
+			            "gender":1,
+			            "pid": "",
+			            "poi_address": "",
+			            "poi_name": "西坝河南路",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "我是郑小超",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn211/20090716/1450/tiny_t3c9_42803e204237.jpg",
+			            "user_id": 1256003641,
+			            "lbs_id": 3665741,
+			            "source_id": 1816049082
+			        },
+			        {
+			            "add_time": 1300338298000,
+			            "data_type": 1,
+			            "distance": 0,
+			            "head_url": "http://hdn.xnimg.cn/photos/hdn511/20090506/0900/head_3iCz_55991a204236.jpg",
+			            "latitude_gps": 43815818,
+			            "latitude_poi": 43815032,
+			            "locate_type": 0,
+			            "longitude_gps": 87604850,
+			            "longitude_poi": 87604676,
+			            "main_url": "http://hdn.xnimg.cn/photos/hdn511/20090506/0900/main_W0Mx_55991a204236.jpg",
+			            "user_name": "陈峰 大号",
+			            "gender":1,
+			            "pid": "B03DF01AB6",
+			            "poi_address": "",
+			            "poi_name": "华凌贸易城",
+			            "poi_phone": "",
+			            "privacy": 1,
+			            "state_text": "(惊恐)转自李松泽:(花)(蜜蜂)刚刚某超市，众人争相抢购食盐，唯一老太镇定自若在一旁选购其他商品，并不时摇头嘲笑。旁人上前问她为什么不抢，老太答：非典那年抢的还没吃完。。。",
+			            "tiny_url": "http://hdn.xnimg.cn/photos/hdn511/20090506/0900/tiny_O7gr_55991a204236.jpg",
+			            "user_id": 1232390764,
+			            "lbs_id": 3650236,
+			            "source_id": 1815470403
+			        }
+			    ],
+			    "lat_gps": 39958150,
+			    "lon_gps": 116432727,
+			    "page_size": 30,
+			    "need2deflect": 0,
+			    "lat_deflect": 39959537,
+			    "lon_deflect": 116438949
+			}
+        </json>
+    </method>
+
+    <method id="http://123.125.42.190:8080/api/sixin/3.0/place/preLocate" >
+
+        <json>
+            {
+			    "count": 80,
+			    "info": {
+			        "lon": 116303673,
+			        "address": "燕园",
+			        "poi_name": "燕园",
+			        "pid": "",
+			        "lat": 40009407,
+			        "county": "海淀区",
+			        "nation": "中国",
+			        "city": "北京市",
+			        "province": "北京市"
+			    },
+			    "poi_list": [
+			        {
+			            "lon": 116307930,
+			            "phone": "",
+			            "address": "",
+			            "poi_name": "西洋楼远瀛观遗址",
+			            "pid": "MAPIYPXMJPTNHPTRYBTMC",
+			            "lat": 40012610,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 288
+			        },
+			        {
+			            "lon": 116304110,
+			            "phone": "",
+			            "address": "",
+			            "poi_name": "福海",
+			            "pid": "B000A7CNIU",
+			            "lat": 40008973,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 89
+			        },
+			        {
+			            "lon": 116301280,
+			            "phone": "",
+			            "address": "",
+			            "poi_name": "福缘门",
+			            "pid": "MAPWJPZMYPHRJNTMYATRQ",
+			            "lat": 40005020,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 49
+			        },
+			        {
+			            "lon": 116308880,
+			            "phone": "",
+			            "address": "",
+			            "poi_name": "圆明园",
+			            "pid": "MAPWYPHRZPSAZETAJNTMQ",
+			            "lat": 40007130,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 72
+			        },
+			        {
+			            "lon": 116310150,
+			            "phone": "010-62558214",
+			            "address": "清华西路",
+			            "poi_name": "圆明园遗址公园",
+			            "pid": "MAPICPCIQPTRJPTWCITIC",
+			            "lat": 40002480,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 137
+			        },
+			        {
+			            "lon": 116308520,
+			            "phone": "",
+			            "address": "圆明园内",
+			            "poi_name": "别有洞天",
+			            "pid": "MAPIHPCRZNYICMHAJITNC",
+			            "lat": 40006980,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 80
+			        },
+			        {
+			            "lon": 116308420,
+			            "phone": "",
+			            "address": "",
+			            "poi_name": "黄花阵",
+			            "pid": "MAPIZPFRZNYICMHAJOTAC",
+			            "lat": 40013340,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 38
+			        },
+			        {
+			            "lon": 116302050,
+			            "phone": "",
+			            "address": "",
+			            "poi_name": "平湖秋月",
+			            "pid": "MAPISPFRZNYICMHAJOTEC",
+			            "lat": 40011770,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 5
+			        },
+			        {
+			            "lon": 116305470,
+			            "phone": "",
+			            "address": "",
+			            "poi_name": "藏密楼",
+			            "pid": "MAPIYPHRZNYICMHAJNTMC",
+			            "lat": 40012290,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 4
+			        },
+			        {
+			            "lon": 116306270,
+			            "phone": "",
+			            "address": "",
+			            "poi_name": "福海景区",
+			            "pid": "MAPIJPHRZNYICMHAJNTRC",
+			            "lat": 40011650,
+			            "activity_caption": "",
+			            "activity_count": 0,
+			            "self_checkin": 0,
+			            "total_vistited": 7
+			        }
+			    ],
+			    "quick_checkin_mark": "true",
+			    "lat_gps": 40009407,
+			    "lon_gps": 116303673,
+			    "need2deflect": 0,
+			    "locate_type": 0
+			}
+        </json>
+    </method>
+
+    <method id="http://123.125.42.190:8080/api/sixin/3.0/feed/feedsrefresh" >
+
+        <json>
+	        {
+          		"count":8, 
+           		"feeds":[
+           			{
+           				 "comments_count":11,
+           				 "likes_count":10,
+           				 "feed_id":19887834122, 
+           				 "post":{
+           				 	"id":121321321321,
+           				 	"client_time":"121321321321",
+           				 	"updated_time": "1350408154635",
+ 							"created_time": "1356953732",
+           				    "user":{
+           				 	"id":1254677247,
+           					"name":"郎宗明^Timi", 
+           					"header_url":{
+           						"small_head":"http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg",
+           						"normal_head":""
+           						}
+           					 },
+           					 "content":[
+           				 		{
+           				 			"type":"text",
+           				 			"content":{
+           				 			"text":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈(调皮)"
+           				 				}
+           				 		},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"Dota啦",
+           				 				"icon":"",
+           				 				"desc":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"我是下拉刷新出来的哦！哈哈哈哈",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           				 	],
+           				 	"state":0
+           				 },
+           				 "comments":[
+           				 	{
+           				 		"content":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)其他的给点提示，同志们", 
+           				 		"head_url":"http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg", 
+           				 		"id":13455574720, 
+           				 		"user_name":"我是下拉刷新出来的哦！哈哈哈哈", 
+           				 		"time":1350408360000, 
+           				 		"user_id":254677247
+           				 	}, 
+           				 	{
+           				 		"content":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)回复马伟东： 准备好菊花", 
+           				 		"head_url":"http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg", 
+           				 		"id":13464378159, 
+           				 		"user_name":"我是下拉刷新出来的哦！哈哈哈哈", 
+           				 		"time":1350488220000, 
+           				 		"user_id":254677247
+           				 	}
+           				 	] 
+           			}, 
+           			
+           			{
+           				"origin_title":"我是下拉刷新出来的哦！哈哈哈哈", 
+           				"comments_count":2,
+           				"feed_id":19880221353,
+           				"likes_count":1,
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1350370789480",
+							"created_time": "1356953732",
+           					"user":{
+           						"name":"郎宗明^Timi", 
+           						"id":1254677247,
+           						"header_url":{
+           							"small_head":"http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg", 
+           							"normal_head":""
+           							}
+           					},
+           					"content":[
+           						{
+           						"type":"text",
+           						"content":{
+           							"text":"我是下拉刷新出来的哦！哈哈哈哈，哈哈哈哈哈哈哈哈"
+           							}
+           						},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_47hO_248a0003bd20125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_47hO_248a0003bd20125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_47hO_248a0003bd20125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"工作啦",
+           				 				"icon":"",
+           				 				"desc":"认真工作是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心20层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				},
+           				"comments":[
+           					{
+           						"content":"明天，不是下周六吗", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn521/20111203/2105/tiny_uU0Z_197510l019117.jpg", 
+           						"id":13450165611, 
+           						"user_name":"张智", 
+           						"time":1350373020000, 
+           						"user_id":92661245
+           					}, 
+           					{
+           						"content":"回复张智:呜呜，白高兴啦", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg", 
+           						"id":13450228289, 
+           						"user_name":"郎宗明^Timi", 
+           						"time":1350373620000, 
+           						"user_id":254677247
+           					}
+           				]
+           			},
+           			{
+           				"comments_count":7, 
+           				"feed_id":19647196317, 
+           				"likes_count":11,	
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348810805792",
+							"created_time": "1356953732",
+           					"user":{
+           						"name":"刘超.TCLC",
+           						"id":1271391051,
+           						"header_url":{
+           					   	"small_head":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg", 
+           							"normal_head":""
+           						}
+           					},
+           					"content":[
+           						{
+           							"type":"text",
+           							"content":{
+           								"text":"快速上传"
+           							}
+           						},
+           						{
+           							"type":"image",
+           							"content":{
+           								"medium":{
+           									"url":"http://fmn.rrimg.com/fmn061/20120928/1340/head_az3W_27b100004b0d1260.jpg",
+           									"height":200,
+           									"width":400
+           								},
+           								"original":{
+           									"url":"http://fmn.rrimg.com/fmn061/20120928/1340/head_az3W_27b100004b0d1260.jpg",
+           									"height":200,
+           									"width":400
+           								},
+           								"large":{
+           									"url":"http://fmn.rrimg.com/fmn061/20120928/1340/head_az3W_27b100004b0d1260.jpg",
+           									"height":200,
+           									"width":400
+           								}
+           							}
+           						},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"工作啦",
+           				 				"icon":"",
+           				 				"desc":"认真工作是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"皇家俱乐部",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				}, 
+           				"comments":[
+           					{
+           						"content":"人人桌面抢沙发12", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn321/20120708/1720/tiny_9taY_0ca30001725d1376.jpg", 
+           						"id":6939251505, 
+           						"user_name":"杨忙", 
+           						"time":1348810800000, 
+           						"user_id":465086966
+           					}, 
+           					{
+           						"content":"回复李廷昌：产品要feed里播放gif图，这是发的测试图~~~", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg", 
+           						"id":6939272314, 
+           						"user_name":"刘超.TCLC", 
+           						"time":1348811220000, 
+           						"user_id":271391051
+           					}
+           					] 
+           			},
+           			{
+           				"comments_count":0,
+           				"feed_id":19623771894, 
+           				"likes_count":12,
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348654236117",
+							"created_time": "1356953732",
+           					"user":{
+           						"name":"刘超.TCLC", 
+           						"id":1271391051,
+           						"header_url":{
+           							"small_head":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg",
+           							"normal_head":""
+           						}
+           					}, 
+           					"content":[
+           						{
+           							"type":"text",
+           							"content":{
+           								"text":"feeds~~~~"
+           							}
+           						},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn056/20121019/1210/original_wFmL_534900001e3c125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn056/20121019/1210/original_wFmL_534900001e3c125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn056/20121019/1210/original_wFmL_534900001e3c125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心1层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				}
+           			}, 
+           			{
+           				"comments_count":2, 
+           				"feed_id":19623324456,
+           				"likes_count":122, 
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348652057954",
+							"created_time": "1356953732",
+           					"user":{
+           						"name":"刘超.TCLC", 
+           						"id":1271391051,
+           						"header_url":{
+           							"small_head":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg",
+           							"normal_head":""
+           						}
+           					},
+           					"content":[
+           						{
+           							"type":"text",
+           							"content":{
+           								"text":"feeds~"
+           							}
+           						},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_MGUw_534900001e31125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_MGUw_534900001e31125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_MGUw_534900001e31125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心19层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				},
+           				"comments":[
+           					{
+           						"content":"又来了。。。", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn221/20120923/2215/h_tiny_dFJC_0ea600000ff81375.jpg", 
+           						"id":13258154788, 
+           						"user_name":"辛颖", 
+           						"time":1348652160000, 
+           						"user_id":232395238
+           					}, 
+           					{
+           						"content":"回复辛颖： 一个星期来一次~~", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg", 
+           						"id":13258187324, 
+           						"user_name":"刘超.TCLC", 
+           						"time":1348652460000, 
+           						"user_id":271391051
+           					}
+           					]
+           			},
+           			{
+           				"comments_count":0,
+           				"feed_id":19623284499, 
+           				"likes_count":3,
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348651840543",
+							"created_time": "1356953732",
+           					"user":{
+           						"name":"刘超.TCLC", 
+           						"id":1271391051,
+           						"header_url":{
+           							"small_head":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg",
+           							"normal_head":""
+           						}
+           					},
+           					"content":[
+           						{
+           							"type":"text",
+           							"content":{
+           								"text":"feed"
+           							}
+           						},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_oOHW_24000003bc80125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_oOHW_24000003bc80125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_oOHW_24000003bc80125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心11层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				}
+           			},
+           			{
+           				"comments_count":5,
+           				"likes_count":21,
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348556540884",
+							"created_time": "1356953732",
+           					"user":{
+           						"name":王田", 
+           						"id":1224142349,
+           						"header_url":{
+           							"small_head":"http://hdn.xnimg.cn/photos/hdn121/20120906/1725/tiny_GOwl_4f4a0001ce5f1376.jpg",
+           							"normal_head":""
+           						}
+           					},
+           					"content":[
+           					{
+           						"type":"text",
+           						"content":{
+           							"text":"吃了我的中秋福利改bug速度没有加倍的人都应该割JJ"
+           						}
+           					},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_yRU1_251a0003bbd5125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_yRU1_251a0003bbd5125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_yRU1_251a0003bbd5125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心121层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           				],
+           				"state":0
+           				}, 
+           				"feed_id":19609990309, 
+           				"comments":[
+           					{
+           						"content":"唉 我还说国庆给你带回去呢 就被他们给瓜分了", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn121/20100703/1855/tiny_lAj7_8851m019116.jpg", 
+           						"id":13247863701, 
+           						"user_name":"高筱", 
+           						"time":1348556520000, 
+           						"user_id":322012570
+           					}, 
+           					{
+           						"content":"回复高筱: 提bug的没抢道正常", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn121/20120906/1725/tiny_GOwl_4f4a0001ce5f1376.jpg", 
+           						"id":13247874592, 
+           						"user_name":"王田", 
+           						"time":1348556640000, 
+           						"user_id":224142349
+           					}
+           					]
+           				
+           			},
+           			{
+           				"comments_count":3,
+           				"likes_count":1212,
+           				"feed_id":19605805327, 
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348536340037",
+							"created_time": "1356953732",
+           					"user":{
+           						"name":"王田",
+           						"id":1224142349,
+           						"header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn121/20120906/1725/tiny_GOwl_4f4a0001ce5f1376.jpg", 
+           							"normal_head":""
+           						}
+           					},
+           				"content":[
+           					{
+           						"type":"text",
+           						"content":{
+           							"text":"手机相册"
+           						}
+           					},
+           					{
+           						"type":"image",
+           						"content":{
+           							"medium":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/head_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":400
+           							},
+           							"original":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":400
+           							},
+           							"large":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/original_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":400
+           							}
+           						}
+           					},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心15层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           				],
+           				"state":0
+           				}
+           			}
+                   ]
+           		}
+
+        </json>
+    </method>
+    
+    
+    <method id="http://123.125.42.190:8080/api/sixin/3.0/feed/feedsById" >
+
+        <json>
+	        {
+          		"count":8, 
+           		"feeds":[
+           			{
+           				 "comments_count":11,
+           				 "likes_count":10,
+           				 "feed_id":19887834122, 
+           				 "post":{
+           				 	"id":121321321321,
+           				 	"client_time":"121321321321",
+           				 	"updated_time": "1350408154635",
+ 							"created_time": "1356953732",
+           					 "content":[
+           				 		{
+           				 			"type":"text",
+           				 			"content":{
+           				 			"text":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈(调皮)"
+           				 				}
+           				 		},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"Dota啦",
+           				 				"icon":"",
+           				 				"desc":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"我是下拉刷新出来的哦！哈哈哈哈",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           				 	],
+           				 	"state":0
+           				 },
+           				 "comments":[
+           				 	{
+           				 		"content":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)其他的给点提示，同志们", 
+           				 		"head_url":"http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg", 
+           				 		"id":13455574720, 
+           				 		"user_name":"我是下拉刷新出来的哦！哈哈哈哈", 
+           				 		"time":1350408360000, 
+           				 		"user_id":254677247
+           				 	}, 
+           				 	{
+           				 		"content":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)回复马伟东： 准备好菊花", 
+           				 		"head_url":"http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg", 
+           				 		"id":13464378159, 
+           				 		"user_name":"我是下拉刷新出来的哦！哈哈哈哈", 
+           				 		"time":1350488220000, 
+           				 		"user_id":254677247
+           				 	}
+           				 	] 
+           			}, 
+           			
+           			{
+           				"origin_title":"我是下拉刷新出来的哦！哈哈哈哈", 
+           				"comments_count":2,
+           				"feed_id":19880221353,
+           				"likes_count":1,
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1350370789480",
+							"created_time": "1356953732",
+           					"content":[
+           						{
+           						"type":"text",
+           						"content":{
+           							"text":"我是下拉刷新出来的哦！哈哈哈哈，哈哈哈哈哈哈哈哈"
+           							}
+           						},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_47hO_248a0003bd20125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_47hO_248a0003bd20125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_47hO_248a0003bd20125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"工作啦",
+           				 				"icon":"",
+           				 				"desc":"认真工作是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心20层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				},
+           				"comments":[
+           					{
+           						"content":"明天，不是下周六吗", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn521/20111203/2105/tiny_uU0Z_197510l019117.jpg", 
+           						"id":13450165611, 
+           						"user_name":"张智", 
+           						"time":1350373020000, 
+           						"user_id":92661245
+           					}, 
+           					{
+           						"content":"回复张智:呜呜，白高兴啦", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg", 
+           						"id":13450228289, 
+           						"user_name":"郎宗明^Timi", 
+           						"time":1350373620000, 
+           						"user_id":254677247
+           					}
+           				]
+           			},
+           			{
+           				"comments_count":7, 
+           				"feed_id":19647196317, 
+           				"likes_count":11,	
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348810805792",
+							"created_time": "1356953732",
+           					"content":[
+           						{
+           							"type":"text",
+           							"content":{
+           								"text":"快速上传"
+           							}
+           						},
+           						{
+           							"type":"image",
+           							"content":{
+           								"medium":{
+           									"url":"http://fmn.rrimg.com/fmn061/20120928/1340/head_az3W_27b100004b0d1260.jpg",
+           									"height":200,
+           									"width":400
+           								},
+           								"original":{
+           									"url":"http://fmn.rrimg.com/fmn061/20120928/1340/head_az3W_27b100004b0d1260.jpg",
+           									"height":200,
+           									"width":400
+           								},
+           								"large":{
+           									"url":"http://fmn.rrimg.com/fmn061/20120928/1340/head_az3W_27b100004b0d1260.jpg",
+           									"height":200,
+           									"width":400
+           								}
+           							}
+           						},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"工作啦",
+           				 				"icon":"",
+           				 				"desc":"认真工作是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"皇家俱乐部",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				}, 
+           				"comments":[
+           					{
+           						"content":"人人桌面抢沙发12", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn321/20120708/1720/tiny_9taY_0ca30001725d1376.jpg", 
+           						"id":6939251505, 
+           						"user_name":"杨忙", 
+           						"time":1348810800000, 
+           						"user_id":465086966
+           					}, 
+           					{
+           						"content":"回复李廷昌：产品要feed里播放gif图，这是发的测试图~~~", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg", 
+           						"id":6939272314, 
+           						"user_name":"刘超.TCLC", 
+           						"time":1348811220000, 
+           						"user_id":271391051
+           					}
+           					] 
+           			},
+           			{
+           				"comments_count":0,
+           				"feed_id":19623771894, 
+           				"likes_count":12,
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348654236117",
+							"created_time": "1356953732",
+           					"content":[
+           						{
+           							"type":"text",
+           							"content":{
+           								"text":"feeds~~~~"
+           							}
+           						},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn056/20121019/1210/original_wFmL_534900001e3c125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn056/20121019/1210/original_wFmL_534900001e3c125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn056/20121019/1210/original_wFmL_534900001e3c125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心1层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				}
+           			}, 
+           			{
+           				"comments_count":2, 
+           				"feed_id":19623324456,
+           				"likes_count":122, 
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348652057954",
+							"created_time": "1356953732",
+           					"content":[
+           						{
+           							"type":"text",
+           							"content":{
+           								"text":"feeds~"
+           							}
+           						},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_MGUw_534900001e31125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_MGUw_534900001e31125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_MGUw_534900001e31125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心19层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				},
+           				"comments":[
+           					{
+           						"content":"又来了。。。", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn221/20120923/2215/h_tiny_dFJC_0ea600000ff81375.jpg", 
+           						"id":13258154788, 
+           						"user_name":"辛颖", 
+           						"time":1348652160000, 
+           						"user_id":232395238
+           					}, 
+           					{
+           						"content":"回复辛颖： 一个星期来一次~~", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg", 
+           						"id":13258187324, 
+           						"user_name":"刘超.TCLC", 
+           						"time":1348652460000, 
+           						"user_id":271391051
+           					}
+           					]
+           			},
+           			{
+           				"comments_count":0,
+           				"feed_id":19623284499, 
+           				"likes_count":3,
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348651840543",
+							"created_time": "1356953732",
+           					"content":[
+           						{
+           							"type":"text",
+           							"content":{
+           								"text":"feed"
+           							}
+           						},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_oOHW_24000003bc80125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_oOHW_24000003bc80125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_oOHW_24000003bc80125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心11层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           					],
+           					"state":0
+           				}
+           			},
+           			{
+           				"comments_count":5,
+           				"likes_count":21,
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348556540884",
+							"created_time": "1356953732",
+           					"content":[
+           					{
+           						"type":"text",
+           						"content":{
+           							"text":"吃了我的中秋福利改bug速度没有加倍的人都应该割JJ"
+           						}
+           					},
+           				 		{
+           				 			"type":"image",
+           				 			"content":{
+           				 				"medium":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_yRU1_251a0003bbd5125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"large":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_yRU1_251a0003bbd5125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				},
+           				 				"original":{
+           				 					"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_yRU1_251a0003bbd5125f.jpg",
+           				 					"height":200,
+           				 					"width":400
+           				 				}
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心121层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           				],
+           				"state":0
+           				}, 
+           				"feed_id":19609990309, 
+           				"comments":[
+           					{
+           						"content":"唉 我还说国庆给你带回去呢 就被他们给瓜分了", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn121/20100703/1855/tiny_lAj7_8851m019116.jpg", 
+           						"id":13247863701, 
+           						"user_name":"高筱", 
+           						"time":1348556520000, 
+           						"user_id":322012570
+           					}, 
+           					{
+           						"content":"回复高筱: 提bug的没抢道正常", 
+           						"head_url":"http://hdn.xnimg.cn/photos/hdn121/20120906/1725/tiny_GOwl_4f4a0001ce5f1376.jpg", 
+           						"id":13247874592, 
+           						"user_name":"王田", 
+           						"time":1348556640000, 
+           						"user_id":224142349
+           					}
+           					]
+           				
+           			},
+           			{
+           				"comments_count":3,
+           				"likes_count":1212,
+           				"feed_id":19605805327, 
+           				"post":{
+           					"id": "122788341354_2769233",
+							"client_time": "1356953732",
+							"updated_time": "1348536340037",
+							"created_time": "1356953732",
+           				"content":[
+           					{
+           						"type":"text",
+           						"content":{
+           							"text":"手机相册"
+           						}
+           					},
+           					{
+           						"type":"image",
+           						"content":{
+           							"medium":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/head_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":400
+           							},
+           							"original":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":400
+           							},
+           							"large":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/original_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":400
+           							}
+           						}
+           					},
+           				 		{
+           				 			"type":"voice",
+           				 			"content":{
+           				 				"url":"voice/1229120320_e9c355aa438e1223.spx",
+           				 				"length":200
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"tag",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"学习啦",
+           				 				"icon":"",
+           				 				"desc":"认真学习是一种态度"
+           				 			}
+           				 			
+           				 		},
+           				 		{
+           				 			"type":"action",
+           				 			"content":{
+           				 				"id":"12121",
+           				 				"name":"like"
+           				 			}
+           				 		},
+           				 		{
+           				 			"type":"place",
+           				 			"content":{
+           				 				"name":"静安中心15层",
+           				 				"latitude":121.111,
+           				 				"longitude":11.1212,
+           				 				"data":{}
+           				 			}
+           				 		}
+           				],
+           				"state":0
+           				}
+           			}
+                   ]
+           		}
+
+        </json>
+    </method>
+
+    <method id="http://123.125.42.190:8080/api/sixin/3.0/feed/feeds" >
+
+        <json>
+            {"count":10,"feeds":[{"template_id":"","post":{"state":"Normal","content":[{"content":{"duration":12,"voice_url":"voice_url"},"type":"voice"},{"content":{"text":"voice_url"},"type":"text"},{"content":{"original":{"url":"large_url","width":100,"height":100},"large":{"url":"large_url","width":100,"height":100},"medium":{"url":"large_url","width":100,"height":100}},"type":"image"},{"content":{"data":"","longitude":"123","latitude":"123","name":"lbs"},"type":"place"},{"content":{"id":"123","icon":"","desc":"","name":""},"type":"tag"}],"client_time":1351131843000,"ugc_id":2644,"created_time":1352429784000,"user":{"head_url":{"square400":"http:\/\/a.xnimg.cn\/wap\/head\/200.png","square200":"http:\/\/hdn.xnimg.cn\/photos\/hdn221\/20120626\/2000\/h_main_fPbt_47e5000000491375.jpg"},"id":1278436491,"name":"李乾‘"},"updated_time":1352429784000},"created_time":1352429784000,"total_count":1,"updated_time":1352429784000,"feed_id":2644,"like_count":0},{"template_id":"","post":{"state":"Normal","content":[{"content":{"duration":12,"voice_url":"voice_url"},"type":"voice"},{"content":{"text":"voice_url"},"type":"text"},{"content":{"original":{"url":"large_url","width":100,"height":100},"large":{"url":"large_url","width":100,"height":100},"medium":{"url":"large_url","width":100,"height":100}},"type":"image"},{"content":{"data":"","longitude":"123","latitude":"123","name":"lbs"},"type":"place"},{"content":{"id":"123","icon":"","desc":"","name":""},"type":"tag"}],"client_time":1351131843000,"ugc_id":2627,"created_time":1352377693000,"user":{"head_url":{"square400":"http:\/\/fmn.rrimg.com\/fmn057\/20121018\/1855\/original_5fGn_7a980002ddb2125c.jpg","square200":"http:\/\/fmn.rrimg.com\/fmn057\/20121018\/1855\/tiny_5fGn_7a980002ddb2125c.jpg"},"id":1273247960,"name":"阎勇帅"},"updated_time":1352377693000},"created_time":1352377693000,"total_count":0,"updated_time":1352377693000,"feed_id":2627,"like_count":0},{"template_id":"","post":{"state":"Normal","content":[{"content":{"text":"tttttt"},"type":"text"},{"content":{"data":"","longitude":"","latitude":"","name":""},"type":"place"}],"client_time":1352258521000,"ugc_id":2352,"created_time":1352258521000,"user":{"head_url":{"square400":"http:\/\/fmn.rrimg.com\/fmn063\/20120913\/1230\/original_V0l9_7c980001004d118e.jpg","square200":"http:\/\/fmn.rrimg.com\/fmn063\/20120913\/1230\/tiny_V0l9_7c980001004d118e.jpg"},"id":1370502643,"name":"陈小予"},"updated_time":1352258521000},"created_time":1352258521000,"total_count":0,"updated_time":1352258521000,"feed_id":2352,"like_count":0},{"template_id":"","post":{"state":"Normal","content":[{"content":{"text":"额额额额额额"},"type":"text"},{"content":{"data":"","longitude":"","latitude":"","name":""},"type":"place"}],"client_time":1352255852000,"ugc_id":2340,"created_time":1352255852000,"user":{"head_url":{"square400":"http:\/\/fmn.rrimg.com\/fmn063\/20120913\/1230\/original_V0l9_7c980001004d118e.jpg","square200":"http:\/\/fmn.rrimg.com\/fmn063\/20120913\/1230\/tiny_V0l9_7c980001004d118e.jpg"},"id":1370502643,"name":"陈小予"},"updated_time":1352255852000},"created_time":1352255852000,"total_count":0,"updated_time":1352255852000,"feed_id":2340,"like_count":0},{"template_id":"","post":{"state":"Normal","content":[{"content":{"text":"text"},"type":"text"},{"content":{"duration":10,"voice_url":"http:\/\/voice"},"type":"voice"},{"content":{"data":"","longitude":"","latitude":"","name":""},"type":"place"}],"client_time":1351852473000,"ugc_id":26,"created_time":1351852473000,"user":{"head_url":{"square400":"http:\/\/a.xnimg.cn\/wap\/head\/200.png","square200":"http:\/\/hdn.xnimg.cn\/photos\/hdn121\/20120404\/2305\/h_main_FBPr_3f37000057f72f75.jpg"},"id":1222789321,"name":"蒋朋"},"updated_time":1351852473000},"created_time":1351852473000,"total_count":0,"updated_time":1351852473000,"feed_id":26,"like_count":0}]}
+        </json>
+    </method>
+
+    <method id="http://123.125.42.190:8080/api/sixin/3.0/feed/Comments" >
+
+        <json>
+           { 
+            "is_mini_feed":0, 
+          	"has_more":1,
+            "count": 4,
+            "comments_size": 40, 
+            "comments":[
+               {
+               "ugc_id":"122788341354", 
+          	   "client_time":1348810800000, 
+          	   "updated_time":1348810800000,
+          	   "created_time":1348810800000,
+          	   "user":{
+			          "name": "侯文鹏 ",
+			          "id": 465086966,
+          	          "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn321/20100821/1935/h_head_IiIq_2ad0000229422f74.jpg", 
+           							"normal_head":""
+           							}
+          	          },
+               "content":[
+                      {
+                      "type":"text",
+                      "content":{
+                                "text":"是个好学校"
+                                }
+                       }
+                     ],
+                 "state": 0     
+                 },
+                 {
+                  "ugc_id":"122788341354",  
+          	      "client_time":1348810800000, 
+          	      "updated_time":1348810800000,
+          	      "created_time":1348810800000,   
+                  "user":{
+			          "name": "刘超.TCLC",
+			          "id": 271391051,
+			           "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg", 
+           							"normal_head":""
+           							}
+          	          },
+                  "content":[
+                      {
+                      "type":"text",
+                      "content":{
+                               "text":"真的假的！！！"
+                                }
+                      },
+                      {
+                      "type":"voice",
+                      "content":{
+                                "url":"voice/1229120320_e9c355aa438e1223.spx"
+                                }
+                      },
+                      {
+                      "type":"action",
+                      "content":{
+                                "name":"like"
+                                 }
+                      }
+                    ],
+                    "state": 0     
+                  },  
+                  {
+                   "ugc_id":"122788341354",  
+          	       "client_time":1348810800000, 
+          	       "updated_time":1348810800000,
+          	       "created_time":1348810800000,    
+                   "user":{
+			          "name": "杨忙",
+			          "id": 465086966,
+			           "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn321/20120708/1720/tiny_9taY_0ca30001725d1376.jpg", 
+           							"normal_head":""
+           							}
+          	          },
+                   "content":[
+                      {
+                      "type":"text",
+                      "content":{
+                               "text":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)发张美女图"
+                                }
+                       },
+                       {
+                      "type":"image",
+                      "content":{
+                                  "medium":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"original":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"large":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/original_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							}
+                                }
+                          }
+                       ],
+                    "state": 0          
+                  },
+                  {
+                    "ugc_id":"122788341354",  
+          	        "client_time":1348810800000, 
+          	        "updated_time":1348810800000,
+          	        "created_time":1348810800000,  
+                    "user":{
+			             "name": "宁长胜",
+			             "id": 465086966,
+			              "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn211/20090716/1450/head_INi2_42571i204237.jpg", 
+           							"normal_head":""
+           							}
+          	              },
+                    "content":[
+                         {
+                         "type":"text",
+                         "content":{
+                                  "text":"action show"
+                                  }
+                         },
+                         {
+                          "type":"action",
+                           "content":{
+                                  "name":"like"
+                                    }
+                               }
+                           ], 
+                    "state": 0      
+                   },
+                    {
+                   "ugc_id":"122788341354",  
+          	       "client_time":1348810800000, 
+          	       "updated_time":1348810800000,
+          	       "created_time":1348810800000,    
+                   "user":{
+			          "name": "杨忙",
+			          "id": 465086966,
+			           "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn321/20120708/1720/tiny_9taY_0ca30001725d1376.jpg", 
+           							"normal_head":""
+           							}
+          	          },
+                   "content":[
+                      {
+                      "type":"text",
+                      "content":{
+                               "text":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)发张美女图"
+                                }
+                       },
+                       {
+                      "type":"image",
+                      "content":{
+                                  "medium":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"original":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"large":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/original_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							}
+                                }
+                          }
+                       ],
+                    "state": 0          
+                  },
+                   {
+                   "ugc_id":"122788341354",  
+          	       "client_time":1348810800000, 
+          	       "updated_time":1348810800000,
+          	       "created_time":1348810800000,    
+                   "user":{
+			          "name": "杨忙",
+			          "id": 465086966,
+			           "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn321/20120708/1720/tiny_9taY_0ca30001725d1376.jpg", 
+           							"normal_head":""
+           							}
+          	          },
+                   "content":[
+                      {
+                      "type":"text",
+                      "content":{
+                               "text":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)发张美女图"
+                                }
+                       },
+                       {
+                      "type":"image",
+                      "content":{
+                                  "medium":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"original":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"large":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/original_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							}
+                                }
+                          }
+                       ],
+                    "state": 0          
+                  },
+                   {
+                   "ugc_id":"122788341354",  
+          	       "client_time":1348810800000, 
+          	       "updated_time":1348810800000,
+          	       "created_time":1348810800000,    
+                   "user":{
+			          "name": "杨忙",
+			          "id": 465086966,
+			           "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn321/20120708/1720/tiny_9taY_0ca30001725d1376.jpg", 
+           							"normal_head":""
+           							}
+          	          },
+                   "content":[
+                      {
+                      "type":"text",
+                      "content":{
+                               "text":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)发张美女图"
+                                }
+                       },
+                       {
+                      "type":"image",
+                      "content":{
+                                  "medium":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"original":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"large":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/original_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							}
+                                }
+                          }
+                       ],
+                    "state": 0          
+                  },
+                   {
+                   "ugc_id":"122788341354",  
+          	       "client_time":1348810800000, 
+          	       "updated_time":1348810800000,
+          	       "created_time":1348810800000,    
+                   "user":{
+			          "name": "杨忙",
+			          "id": 465086966,
+			           "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn121/20120906/1725/tiny_GOwl_4f4a0001ce5f1376.jpg", 
+           							"normal_head":""
+           							}
+          	          },
+                   "content":[
+                      {
+                      "type":"text",
+                      "content":{
+                               "text":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)发张美女图"
+                                }
+                       },
+                       {
+                      "type":"image",
+                      "content":{
+                                  "medium":{
+           								"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_yRU1_251a0003bbd5125f.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"original":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"large":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/original_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							}
+                                }
+                          }
+                       ],
+                    "state": 0          
+                  },
+                   {
+                   "ugc_id":"122788341354",  
+          	       "client_time":1348810800000, 
+          	       "updated_time":1348810800000,
+          	       "created_time":1348810800000,    
+                   "user":{
+			          "name": "杨忙",
+			          "id": 465086966,
+			           "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn321/20120514/1330/tiny_xeU2_11054l019117.jpg", 
+           							"normal_head":""
+           							}
+          	          },
+                   "content":[
+                      {
+                      "type":"text",
+                      "content":{
+                               "text":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)发张美女图"
+                                }
+                       },
+                       {
+                      "type":"image",
+                      "content":{
+                                  "medium":{
+           								"url":"http://fmn.rrimg.com/fmn062/20121019/1205/original_oOHW_24000003bc80125f.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"original":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"large":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/original_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							}
+                                }
+                          }
+                       ],
+                    "state": 0          
+                  },
+                   {
+                   "ugc_id":"122788341354",  
+          	       "client_time":1348810800000, 
+          	       "updated_time":1348810800000,
+          	       "created_time":1348810800000,    
+                   "user":{
+			          "name": "杨忙",
+			          "id": 465086966,
+			           "header_url":{
+           						    "small_head":"http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg", 
+           							"normal_head":""
+           							}
+          	          },
+                   "content":[
+                      {
+                      "type":"text",
+                      "content":{
+                               "text":"(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)发张美女图"
+                                }
+                       },
+                       {
+                      "type":"image",
+                      "content":{
+                                  "medium":{
+           								"url":"http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"original":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/main_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							},
+           							"large":{
+           								"url":"http://fmn.rrimg.com/fmn060/20120925/0925/original_aDLU_483800002d3d125e.jpg",
+           								"height":200,
+           								"width":100
+           							}
+                                }
+                          }
+                       ],
+                    "state": 0          
+                  }
+                ]
+           }
+        </json>
+    </method>
+    
+    <method id="http://123.125.42.190:8080/api/sixin/3.0/feed/getNewsList">
+        <json>
+            {
+			   "message":[
+			   {
+			    "sufix": "状态",
+			    "head_url": "http://hdn.xnimg.cn/photos/hdn521/20120529/0920/h_tiny_wxCh_5dc70000021b1376.jpg",
+			    "owner_name": "张宇超",
+			    "source_id": 4259095764,
+			    "type": 16,
+			    "id": [
+			        38090229884,
+			        38090227644,
+			        38090223290
+			    ],
+			    "user_name": "张在贴",
+			    "new": 1,
+			    "title": "Test For News, Welcome Reply",
+			    "time": 1352356776000,
+			    "prefix": "评论了",
+			    "user_count": 1,
+			    "owner_id": 243367188,
+			    "user_id": 461668864,
+			    "latest": 1,
+			    "feed": {
+			        "comments_count": 11,
+			        "likes_count": 10,
+			        "feed_id": 19887834122,
+			        "post": {
+			            "id": 121321321321,
+			            "client_time": "121321321321",
+			            "updated_time": "1350408154635",
+			            "created_time": "1356953732",
+			            "content": [
+			                {
+			                    "type": "text",
+			                    "content": {
+			                        "text": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈(调皮)"
+			                    }
+			                },
+			                {
+			                    "type": "image",
+			                    "content": {
+			                        "medium": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        },
+			                        "large": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        },
+			                        "original": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        }
+			                    }
+			                },
+			                {
+			                    "type": "voice",
+			                    "content": {
+			                        "url": "voice/1229120320_e9c355aa438e1223.spx",
+			                        "length": 200
+			                    }
+			                },
+			                {
+			                    "type": "tag",
+			                    "content": {
+			                        "id": "12121",
+			                        "name": "Dota啦",
+			                        "icon": "",
+			                        "desc": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈"
+			                    }
+			                },
+			                {
+			                    "type": "action",
+			                    "content": {
+			                        "id": "12121",
+			                        "name": "like"
+			                    }
+			                },
+			                {
+			                    "type": "place",
+			                    "content": {
+			                        "name": "我是下拉刷新出来的哦！哈哈哈哈",
+			                        "latitude": 121.111,
+			                        "longitude": 11.1212,
+			                        "data": {}
+			                    }
+			                }
+			            ],
+			            "state": 0
+			        },
+			        "comments": [
+			            {
+			                "content": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)其他的给点提示，同志们",
+			                "head_url": "http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg",
+			                "id": 13455574720,
+			                "user_name": "liminhao",
+			                "time": 1350408360000,
+			                "user_id": 254677247
+			            },
+			            {
+			                "content": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)回复马伟东： 准备好菊花",
+			                "head_url": "http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg",
+			                "id": 13464378159,
+			                "user_name": "我是下拉刷新出来的哦！哈哈哈哈",
+			                "time": 1350488220000,
+			                "user_id": 254677247
+			            }
+			        ]
+			    }
+			   },
+			   {
+			    "sufix": "状态",
+			    "head_url": "http://hdn.xnimg.cn/photos/hdn521/20120529/0920/h_tiny_wxCh_5dc70000021b1376.jpg",
+			    "owner_name": "柳旭",
+			    "source_id": 4259095764,
+			    "type": 16,
+			    "id": [
+			        38090229884,
+			        38090227644,
+			        38090223290
+			    ],
+			    "user_name": "哈哈",
+			    "new": 1,
+			    "title": "Test For News, Welcome Reply",
+			    "time": 1352356776000,
+			    "prefix": "评论了",
+			    "user_count": 1,
+			    "owner_id": 243367188,
+			    "user_id": 461668864,
+			    "latest": 1,
+			    "feed": {
+			        "comments_count": 11,
+			        "likes_count": 10,
+			        "feed_id": 19887834122,
+			        "post": {
+			            "id": 121321321321,
+			            "client_time": "121321321321",
+			            "updated_time": "1350408154635",
+			            "created_time": "1356953732",
+			            "content": [
+			                {
+			                    "type": "text",
+			                    "content": {
+			                        "text": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈(调皮)"
+			                    }
+			                },
+			                {
+			                    "type": "image",
+			                    "content": {
+			                        "medium": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        },
+			                        "large": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        },
+			                        "original": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        }
+			                    }
+			                },
+			                {
+			                    "type": "voice",
+			                    "content": {
+			                        "url": "voice/1229120320_e9c355aa438e1223.spx",
+			                        "length": 200
+			                    }
+			                },
+			                {
+			                    "type": "tag",
+			                    "content": {
+			                        "id": "12121",
+			                        "name": "Dota啦",
+			                        "icon": "",
+			                        "desc": "(吃饭)(调皮)(尴尬)"
+			                    }
+			                },
+			                {
+			                    "type": "action",
+			                    "content": {
+			                        "id": "12121",
+			                        "name": "like"
+			                    }
+			                },
+			                {
+			                    "type": "place",
+			                    "content": {
+			                        "name": "我是下拉刷新出来的哦！哈哈哈哈",
+			                        "latitude": 121.111,
+			                        "longitude": 11.1212,
+			                        "data": {}
+			                    }
+			                }
+			            ],
+			            "state": 0
+			        },
+			        "comments": [
+			            {
+			                "content": "其他的给点提示，同志们",
+			                "head_url": "http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg",
+			                "id": 13455574720,
+			                "user_name": "liminhao",
+			                "time": 1350408360000,
+			                "user_id": 254677247
+			            },
+			            {
+			                "content": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)回复马伟东： 准备好菊花",
+			                "head_url": "http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg",
+			                "id": 13464378159,
+			                "user_name": "我是下拉刷新出来的哦！哈哈哈哈",
+			                "time": 1350488220000,
+			                "user_id": 254677247
+			            }
+			        ]
+			    }
+			   },
+			   {
+			    "sufix": "状态",
+			    "head_url": "http://hdn.xnimg.cn/photos/hdn521/20120529/0920/h_tiny_wxCh_5dc70000021b1376.jpg",
+			    "owner_name": "张晓光",
+			    "source_id": 4259095764,
+			    "type": 16,
+			    "id": [
+			        38090229884,
+			        38090227644,
+			        38090223290
+			    ],
+			    "user_name": "你好",
+			    "new": 1,
+			    "title": "Test For News, Welcome Reply",
+			    "time": 1352356776000,
+			    "prefix": "评论了",
+			    "user_count": 1,
+			    "owner_id": 243367188,
+			    "user_id": 461668864,
+			    "latest": 1,
+			    "feed": {
+			        "comments_count": 11,
+			        "likes_count": 10,
+			        "feed_id": 19887834122,
+			        "post": {
+			            "id": 121321321321,
+			            "client_time": "121321321321",
+			            "updated_time": "1350408154635",
+			            "created_time": "1356953732",
+			            "content": [
+			                {
+			                    "type": "text",
+			                    "content": {
+			                        "text": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈(调皮)"
+			                    }
+			                },
+			                {
+			                    "type": "image",
+			                    "content": {
+			                        "medium": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        },
+			                        "large": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        },
+			                        "original": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        }
+			                    }
+			                },
+			                {
+			                    "type": "voice",
+			                    "content": {
+			                        "url": "voice/1229120320_e9c355aa438e1223.spx",
+			                        "length": 200
+			                    }
+			                },
+			                {
+			                    "type": "tag",
+			                    "content": {
+			                        "id": "12121",
+			                        "name": "Dota啦",
+			                        "icon": "",
+			                        "desc": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈"
+			                    }
+			                },
+			                {
+			                    "type": "action",
+			                    "content": {
+			                        "id": "12121",
+			                        "name": "like"
+			                    }
+			                },
+			                {
+			                    "type": "place",
+			                    "content": {
+			                        "name": "我是下拉刷新出来的哦！哈哈哈哈",
+			                        "latitude": 121.111,
+			                        "longitude": 11.1212,
+			                        "data": {}
+			                    }
+			                }
+			            ],
+			            "state": 0
+			        },
+			        "comments": [
+			            {
+			                "content": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)其他的给点提示，同志们",
+			                "head_url": "http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg",
+			                "id": 13455574720,
+			                "user_name": "liminhao",
+			                "time": 1350408360000,
+			                "user_id": 254677247
+			            },
+			            {
+			                "content": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)回复马伟东： 准备好菊花",
+			                "head_url": "http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg",
+			                "id": 13464378159,
+			                "user_name": "我是下拉刷新出来的哦！哈哈哈哈",
+			                "time": 1350488220000,
+			                "user_id": 254677247
+			            }
+			        ]
+			    }
+			   },
+			   {
+			    "sufix": "状态",
+			    "head_url": "http://hdn.xnimg.cn/photos/hdn521/20120529/0920/h_tiny_wxCh_5dc70000021b1376.jpg",
+			    "owner_name": "你妹妹",
+			    "source_id": 4259095764,
+			    "type": 16,
+			    "id": [
+			        38090229884,
+			        38090227644,
+			        38090223290
+			    ],
+			    "user_name": "阿嚏",
+			    "new": 1,
+			    "title": "Test For News, Welcome Reply",
+			    "time": 1352356776000,
+			    "prefix": "评论了",
+			    "user_count": 1,
+			    "owner_id": 243367188,
+			    "user_id": 461668864,
+			    "latest": 1,
+			    "feed": {
+			        "comments_count": 11,
+			        "likes_count": 10,
+			        "feed_id": 19887834122,
+			        "post": {
+			            "id": 121321321321,
+			            "client_time": "121321321321",
+			            "updated_time": "1350408154635",
+			            "created_time": "1356953732",
+			            "content": [
+			                {
+			                    "type": "text",
+			                    "content": {
+			                        "text": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈(调皮)"
+			                    }
+			                },
+			                {
+			                    "type": "image",
+			                    "content": {
+			                        "medium": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        },
+			                        "large": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        },
+			                        "original": {
+			                            "url": "http://fmn.rrimg.com/fmn060/20121019/1210/original_kpnk_24120003bd37125f.jpg",
+			                            "height": 200,
+			                            "width": 400
+			                        }
+			                    }
+			                },
+			                {
+			                    "type": "voice",
+			                    "content": {
+			                        "url": "voice/1229120320_e9c355aa438e1223.spx",
+			                        "length": 200
+			                    }
+			                },
+			                {
+			                    "type": "tag",
+			                    "content": {
+			                        "id": "12121",
+			                        "name": "Dota啦",
+			                        "icon": "",
+			                        "desc": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)我是下拉刷新出来的哦！哈哈哈哈"
+			                    }
+			                },
+			                {
+			                    "type": "action",
+			                    "content": {
+			                        "id": "12121",
+			                        "name": "like"
+			                    }
+			                },
+			                {
+			                    "type": "place",
+			                    "content": {
+			                        "name": "我是下拉刷新出来的哦！哈哈哈哈",
+			                        "latitude": 121.111,
+			                        "longitude": 11.1212,
+			                        "data": {}
+			                    }
+			                }
+			            ],
+			            "state": 0
+			        },
+			        "comments": [
+			            {
+			                "content": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)其他的给点提示，同志们",
+			                "head_url": "http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg",
+			                "id": 13455574720,
+			                "user_name": "liminhao",
+			                "time": 1350408360000,
+			                "user_id": 254677247
+			            },
+			            {
+			                "content": "(吃饭)(调皮)(尴尬)(汗)(惊恐)(囧)(可爱)(酷)(流口水)(色)(生病)回复马伟东： 准备好菊花",
+			                "head_url": "http://hdn.xnimg.cn/photos/hdn521/20121004/2045/tiny_Z6Rq_738f00022bbd1375.jpg",
+			                "id": 13464378159,
+			                "user_name": "我是下拉刷新出来的哦！哈哈哈哈",
+			                "time": 1350488220000,
+			                "user_id": 254677247
+			            }
+			        ]
+			    }
+			   }
+			   ]
+			}
+        </json>
+    </method>
+
+</methods>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="72dip"
+    android:layout_height="72dip"
+    android:gravity="center" >
+	<ImageView
+	    android:id="@+id/v1_emotion_cube_imageview"
+	        android:layout_width="72dip"
+	        android:layout_height="72dip"
+	        android:scaleType="center"
+	        android:background="@drawable/v1_emotion_selector"
+	         >
+	</ImageView>
+</LinearLayout>

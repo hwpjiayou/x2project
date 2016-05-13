@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 从本地發送的文本消息 start -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sixin="http://schemas.android.com/apk/res/com.renren.mobile.x2"
+    android:id="@+id/chat_voice_to_linearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dip"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:paddingRight="8dip" >
+
+    <!-- 内容区域 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_weight="1.0"
+        android:gravity="right|top"
+        android:orientation="horizontal" >
+
+        <com.renren.mobile.x2.components.chat.view.ListItemLayout
+            android:id="@+id/chat_voice_content_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.renren.mobile.x2.components.chat.view.AttachLayout
+                android:id="@+id/cdw_chat_listview_item_voice_attach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                sixin:attach_error="@+id/cdw_chat_listview_item_send_error_imageview"
+                sixin:attach_error_src="@drawable/test_chat_listview_item_send_error"
+                sixin:attach_loading="@+id/cdw_chat_listview_item_loading"
+                sixin:loading_height="20dip"
+                sixin:loading_width="20dip" />
+
+            <com.renren.mobile.x2.components.chat.view.ListViewContentLayout
+                android:id="@+id/chat_listview_item_content_viewgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff00ffff"
+                android:gravity="center"
+                android:minWidth="42dip"
+                android:orientation="vertical" >
+
+                <!-- 新鲜事模块 -->
+
+
+                <!-- <com.renren.mobile.chat.views.ChatFeedView -->
+                <!-- android:id="@+id/cdw_feed_view" -->
+                <!-- android:layout_width="235dip" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="center_vertical" -->
+                <!-- android:orientation="vertical" -->
+                <!-- android:visibility="gone" /> -->
+                <!-- 文本 -->
+
+                <include
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    layout="@layout/chat_listview_item_to_text" />
+                <!-- 语音 -->
+
+                <include
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/chat_listview_item_to_voice" />
+                <!-- 图片 -->
+
+                <include
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    layout="@layout/chat_listview_item_to_image" />
+                <!-- flash 消息 -->
+
+                <include
+                    android:layout_width="150dip"
+                    android:layout_height="150dip"
+                    layout="@layout/chat_listview_item_to_flash" />
+            </com.renren.mobile.x2.components.chat.view.ListViewContentLayout>
+
+            <ImageView
+                android:id="@+id/feed_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/test_default" />
+        </com.renren.mobile.x2.components.chat.view.ListItemLayout>
+    </LinearLayout>
+
+    <!-- 头像 -->
+
+    <FrameLayout
+        android:id="@+id/chat_voice_head_linearlayout"
+        android:layout_width="46dip"
+        android:layout_height="46dip"
+        android:layout_gravity="bottom" >
+        <ImageView
+            android:id="@+id/chat_voice_head_imageview"
+           android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="4dip"
+            android:paddingTop="2dip"
+            android:paddingRight="4dip"
+            android:paddingBottom="6dip"
+            android:layout_gravity="center"
+            android:src="@drawable/v1_default_male" />
+
+        <ImageView
+           android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/v1_head_cover_46_transparent" />
+    </FrameLayout>
+
+</LinearLayout>

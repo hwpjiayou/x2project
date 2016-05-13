@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/v1_publisher_location_mess_selected" android:state_pressed="true" android:state_enabled="true"/>
+    <item android:drawable="@drawable/v1_publisher_location_mess_unselect" android:state_pressed="false"
+          android:state_selected="false" android:state_enabled="true"/>
+    <item android:drawable="@drawable/v1_publisher_location_mess_selected" android:state_selected="true" android:state_enabled="true"/>
+    <item android:drawable="@drawable/v1_publisher_location_mess_unselect" android:state_enabled="false"/>
+</selector>

@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="ScrollBar">
+        <attr name="scroll_bar_drawable" format="reference"/>
+        <attr name="scroll_bar_width" format="dimension"/>
+        <attr name="scroll_bar_height" format="dimension"/>
+    </declare-styleable>
+</resources>

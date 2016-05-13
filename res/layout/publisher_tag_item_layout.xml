@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@color/transparent"
+    android:layout_height="wrap_content" >
+    <ImageView 
+        android:id="@+id/publisher_tag_select_bgs"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:src="@drawable/publisher_tag_item_select_bg"
+        android:visibility="invisible"
+        />
+
+    <ImageButton 
+        android:id="@+id/publisher_tag_item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/publisher_tag_pressed1"
+        />
+</FrameLayout>

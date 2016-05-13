@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:background="#ffff00ff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/popview_viewuserinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="dfsafasfda"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="32dip"
+            >
+
+            <ImageView
+                android:id="@+id/d_chat_logo"
+                android:layout_width="112dip"
+                android:layout_height="112dip"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/test_default" />
+
+            <TextView
+                android:id="@+id/version_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/d_chat_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dip"
+                android:text="1.0.0"
+                android:textColor="#7c7c7c"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/version_button"
+                android:layout_width="166dip"
+                android:layout_height="46dip"
+                android:layout_below="@id/version_textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dip"
+                android:text="@string/setting_about_2"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal|bottom"
+            android:layout_marginBottom="26dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="@string/setting_about_3"
+                android:textColor="#7c7c7c"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="@string/setting_about_4"
+                android:textColor="#7c7c7c"
+                android:textSize="12sp" />
+        </LinearLayout>
+<!-- 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="4dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/common_title_driver" />
+ -->
+</FrameLayout>

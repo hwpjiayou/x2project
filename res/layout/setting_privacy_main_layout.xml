@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/settingPrivacy_frame_privacy"
+        style="@style/setting_frameLayout_1"
+        android:layout_marginTop="14dip"
+        android:background="@drawable/item_single_bg_selector" >
+
+        <TextView
+            style="@style/setting_mianText"
+            android:text="@string/setting_privacy_locale" />
+
+        <TextView
+            android:id="@+id/settingPrivacy_txt_privacy"
+            style="@style/setting_desText"
+            android:layout_marginRight="50dp"
+            android:text="@string/setting_toggle_off" />
+
+        <ImageView
+            android:id="@+id/settingPrivacy_img_privacy"
+            style="@style/setting_toggleIcon" />
+    </FrameLayout>
+
+</LinearLayout>

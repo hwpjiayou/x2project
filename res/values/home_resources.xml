@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- strings -->
+    <string name="home_tab_feeds">新鲜事</string>
+    <string name="home_tab_messages">消息</string>
+    <string name="home_tab_chat">聊天</string>
+    <string name="home_tab_me">我</string>
+    <string name="home_tab_setting">设置</string>
+
+    <!-- dimensions -->
+    <dimen name="home_publisher_button_width">72dp</dimen>
+    <dimen name="home_publisher_button_height">68dp</dimen>
+    <dimen name="home_publisher_background_height">42dp</dimen>
+
+    <dimen name="home_button_width">42dp</dimen>
+    <dimen name="home_button_height">42dp</dimen>
+
+    <dimen name="home_menu_button_width">76dp</dimen>
+    <dimen name="home_menu_button_height">96dp</dimen>
+    <dimen name="home_menu_button_horizontal_padding">14dp</dimen>
+    <dimen name="home_menu_button_vertical_padding">20dp</dimen>
+    <dimen name="home_menu_button_bubble_padding">6dp</dimen>
+    <dimen name="home_menu_division">192dp</dimen>
+    <dimen name="home_menu_separator_height">2dp</dimen>
+    <dimen name="home_menu_top_padding">48dp</dimen>
+
+    <dimen name="home_content_left_offset">60dp</dimen>
+    <dimen name="home_content_right_offset">60dp</dimen>
+    <dimen name="home_content_left_shadow_width">8dp</dimen>
+    <dimen name="home_content_right_shadow_width">8dp</dimen>
+
+    <!-- colors -->
+
+
+    <item type="id" name="menu"/>
+    <item type="id" name="side"/>
+
+</resources>

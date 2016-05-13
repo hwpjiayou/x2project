@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <!--
+        com.renren.mobile.chat.view.LoadingView
+        android:layout_width="50dip"
+        android:layout_height="50dip" />
+    -->
+    <ProgressBar
+        android:id="@+id/loading_processbar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.5dip" />
+
+    <TextView
+        android:id="@+id/loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dip"
+        android:text="正在加载"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

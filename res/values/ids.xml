@@ -1,0 +1,4 @@
+<resources>
+    <item type="id" name="cover_head_img"/>
+    <item type="id" name="cover_head_username"/>
+</resources>

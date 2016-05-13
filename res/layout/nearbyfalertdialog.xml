@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:visibility="gone"
+    android:background="@drawable/v1_common_side_bg"
+     >
+ 
+    <LinearLayout
+        android:id="@+id/nearby_top_container"
+        android:layout_marginTop="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/T11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/nearbyf_top_text" />
+    </LinearLayout>
+
+    
+    <ImageView
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="56dp"
+        android:layout_width="196dp"
+        android:layout_height="233dp"
+        android:src="@drawable/v1_nearbyf_access_text" />
+
+	      <Button
+        android:id="@+id/nearby_positive_des"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:text="@string/accessnearbyfriend"
+        style="@style/T8"
+        android:background="@drawable/v1_nearbyf_access_selector"
+         />
+
+  
+</LinearLayout>
+<!-- 
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/accessnearbytext" />
+  <Button
+        android:id="@+id/nearby_negative_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/negative" />
+	</LinearLayout>
+  <CheckBox
+        android:id="@+id/nearbyf_remeber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textColor="@color/black"
+        android:text="@string/nearbyf_remeberdes_str" />
+ -->

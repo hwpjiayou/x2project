@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <!-- 设置页面 每个条目样式1 -->
+     <style name = "setting_frameLayout_1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingLeft">14dp</item>
+     </style>
+     
+      <!-- 设置页面 每个条目样式2 -->
+     <style name = "setting_frameLayout_2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingLeft">14dp</item>
+     </style>
+     
+       <!-- 设置页面 每个frameLayout中主体字体的样式 -->
+     <style name = "setting_mianText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/list_item_text_color</item>
+      	<item name="android:duplicateParentState">true</item>
+     </style>
+     
+      <!-- 设置页面 每个frameLayout中次级字体的样式 -->
+      <style name ="setting_desText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/setting_item_textb_color</item>
+        <item name="android:duplicateParentState">true</item>
+     </style>
+     
+     <!-- 设置页面 每个frameLayout中右边箭头的样式-->
+     <style name = "setting_imageIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+        <item name="android:src">@drawable/next_arrow_selector</item>
+        <item name="android:layout_marginRight">2dp</item> 
+        <item name="android:duplicateParentState">true</item>
+     </style>
+     
+     <!-- 设置页面 每个frameLayout中右边toggle的样式-->
+     <style name = "setting_toggleIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+        <item name="android:layout_marginRight">10dp</item> 
+        <item name="android:src">@drawable/setting_toggle_selector</item>
+     </style>
+     
+     <style name="inputbar_record_btn_style">
+        <item name="android:textColor">@drawable/inputbar_record_botton_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="progress_bar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/v1_progress_bar</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">1500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">100dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">100dip</item>
+    </style>
+
+     <!-- UI统一给定的字体大小和颜色（T1-T11） -->
+     <style name = "T1">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+     </style>
+     <style name = "T2">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+     </style>
+     <style name = "T3">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+     </style>
+     <style name = "T4">
+        <item name="android:textColor">#c63927</item>
+        <item name="android:textSize">14sp</item>
+     </style>
+     <style name = "T5">
+        <item name="android:textColor">#c6c6c6</item>
+        <item name="android:textSize">14sp</item>
+     </style>
+     <style name = "T6">
+        <item name="android:textColor">#a0a0a0</item>
+        <item name="android:textSize">10sp</item>
+     </style>
+     <style name = "T7">
+        <item name="android:textColor">#afafaf</item>
+        <item name="android:textSize">10sp</item>
+     </style>
+     <style name = "T8">
+        <item name="android:textColor">#afafaf</item>
+        <item name="android:textSize">14sp</item>
+     </style>
+     <style name = "T9">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+     </style>
+     <style name = "T10">
+        <item name="android:textColor">#c6c6c6</item>
+        <item name="android:textSize">16sp</item>
+     </style>
+     <style name = "T11">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+     </style>
+      <style name = "T12">
+        <item name="android:textColor">#c6c6c6</item>
+        <item name="android:textSize">12sp</item>
+     </style>
+     <style name = "T13">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">10sp</item>
+     </style>
+     <style name = "T14">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+     </style>
+     <style name = "T15">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+     </style>
+     <style name = "T16">
+        <item name="android:textColor">#7c7c7c</item>
+        <item name="android:textSize">16sp</item>
+     </style>
+     <style name = "T17">
+        <item name="android:textColor">#7c7c7c</item>
+        <item name="android:textSize">14sp</item>
+     </style>
+     <style name = "T18">
+        <item name="android:textColor">#7c7c7c</item>
+        <item name="android:textSize">12sp</item>
+     </style>
+    <style name = "T19">
+        <item name="android:textColor">#FF909090</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+     <style name = "T20">
+        <item name="android:textColor">#c6c6c6</item>
+        <item name="android:textSize">18sp</item>
+     </style>
+     
+</resources>

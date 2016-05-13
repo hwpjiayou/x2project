@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <!-- 左侧： 头像 -->
+
+    <ImageView
+        android:id="@+id/message_listview_item_head_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- 中部 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <!-- 消息来源人姓名 -->
+            <TextView
+                android:id="@+id/message_listview_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- 消息内容 -->
+            <TextView
+                android:id="@+id/message_listview_item_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- 消息收到时间 -->
+        <TextView
+            android:id="@+id/message_listview_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- 右侧： 新鲜事预览区 -->
+
+    <ImageView
+        android:id="@+id/message_listview_item_preview_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

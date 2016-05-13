@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.renren.mobile.x2.view.LoadMoreViewItem
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/add_more_layout"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:background="@color/background"
+	>
+	<View android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" 
+		android:id="@+id/add_more_divider"
+		android:background="@drawable/test_newsfeed_divider" 
+		/>
+	<RelativeLayout android:id="@+id/add_more_item"
+					android:layout_below="@id/add_more_divider" 
+					android:layout_width="fill_parent"
+					android:layout_height="48dip" 
+					android:padding="10dip"
+					android:orientation="horizontal" 
+					android:gravity="center"
+					>
+		<TextView android:id="@+id/add_more_textview"
+				  android:layout_width="wrap_content"
+				  android:textSize="14sp" 
+				  android:textColor="@color/c_poi_button"
+			  	  android:layout_height="wrap_content" 
+			  	  />
+		<ProgressBar android:id="@+id/add_more_progress"
+				     android:layout_marginRight="5dip" 
+				     android:layout_toLeftOf="@id/add_more_textview"
+					 style="?android:attr/progressBarStyleSmall" 
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content" 
+					 android:visibility="invisible" 
+					 android:layout_marginTop="2dip"/>
+
+	</RelativeLayout>
+	<FrameLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dip"
+	    ></FrameLayout>
+</com.renren.mobile.x2.view.LoadMoreViewItem>

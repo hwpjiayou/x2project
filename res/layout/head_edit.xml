@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent" android:layout_height="fill_parent"
+             android:background="@color/black">
+
+    <com.renren.mobile.x2.components.photoupload.HeadEditImageView android:id="@+id/head_edit_image_view"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+            />
+
+    <!-- 选取框 -->
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent"
+               android:background="@drawable/test_head_edit_selected_frame"/>
+
+    <!-- 顶部工具栏 -->
+    <LinearLayout android:id="@+id/head_edit_title_bar"
+                  android:layout_width="fill_parent" android:layout_height="48dip"
+                  android:background="@drawable/test_head_edit_button_background"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+
+        <Button android:id="@+id/head_edit_cancel_button"
+                android:layout_width="74dip" android:layout_height="34dip"
+                android:background="@drawable/test_head_edit_title_button_bg"
+                android:text="取消" 
+                android:textSize="18sp" 
+                android:layout_marginLeft="10dip"/>
+        
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_weight="1"/>
+        <TextView android:id="@+id/head_edit_title_text_view"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:singleLine="true"
+                  android:text="上传头像" android:textSize="18sp" android:textColor="#ffffff"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_weight="1"/>
+        <Button android:id="@+id/head_edit_ok_button"
+                android:layout_width="74dip" android:layout_height="34dip"
+                android:background="@drawable/test_head_edit_title_button_bg"
+                android:text="确定" 
+                android:textSize="18sp" 
+                android:layout_marginRight="10dip"/>
+    </LinearLayout>
+
+    <!-- 底部工具栏 -->
+    <LinearLayout android:id="@+id/head_edit_operation_bar"
+                  android:layout_width="fill_parent" android:layout_height="48dip"
+                  android:layout_gravity="bottom"
+                  android:background="@drawable/test_head_edit_tool_bar_background"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+
+        <ImageView android:id="@+id/head_edit_turn_left_image_view"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dip"
+                   android:background="@drawable/test_head_edit_title_button_bg" 
+                   android:src="@drawable/test_head_edit_turn_left_image"/>
+        
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_weight="1"/>
+        
+        <ImageView android:id="@+id/head_edit_turn_right_image_view"
+                   android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:layout_marginRight="10dip"
+                   android:background="@drawable/test_head_edit_title_button_bg" 
+                   android:src="@drawable/test_head_edit_turn_right_image"/>
+        
+    </LinearLayout>
+
+    <!-- 等待框 -->
+    <FrameLayout android:id="@+id/head_edit_loading_layout"
+                 android:layout_width="fill_parent" android:layout_height="fill_parent"
+                 android:background="@color/black">
+
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent"
+                   android:scaleType="fitCenter"
+                   android:src="@drawable/test_head_edit_image_loading"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:gravity="center_horizontal"
+                      android:layout_gravity="center">
+
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="正在加载" android:textSize="16sp"/>
+        </LinearLayout>
+    </FrameLayout>
+    
+</FrameLayout>

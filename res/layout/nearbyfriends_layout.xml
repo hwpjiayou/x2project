@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nearbyf_framelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@color/transparent" >
+
+    <LinearLayout
+        android:id="@+id/nearbyf_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+     
+        android:orientation="vertical" >
+
+        <!--   android:visibility="gone"
+     <EditText
+        android:id="@+id/nearbyf_searchfriend_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:layout_marginTop="10px"
+        android:enabled="true"
+        android:textSize="25px"
+        android:hint="@string/v1_searchfriends_hit"
+        android:maxLength="10" 
+        android:paddingLeft="8px" />
+        -->
+
+        <RelativeLayout
+            android:id="@+id/nearby_top_container"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:padding="4dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+        >
+
+            <TextView
+                style="@style/T11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/nearbyf_top_text" />
+
+            <com.renren.mobile.x2.components.chat.view.ProgressImageButton
+                android:id="@+id/nearby_reflash_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:scaleType="center"
+                android:background="@drawable/v1_common_refresh_bg_unpress"
+                android:src="@drawable/feed_tab_refresh_unpress" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/nearby_btn_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            
+            ><com.renren.mobile.x2.components.chat.view.SlipButtonGroup
+                android:id="@+id/nearbyf_genderselector"
+                android:layout_width="204dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/v1_common_tab_bg" >
+            </com.renren.mobile.x2.components.chat.view.SlipButtonGroup>
+
+            <!-- <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/v1_common_tab_bg"
+                android:orientation="horizontal"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/nearbyf_all_btn"
+                    style="@style/T4"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center"
+                    android:text="@string/nearbyf_all" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/nearbyf_boy_btn"
+                    style="@style/T4"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center"
+                    android:text="@string/nearbyf_boys" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/nearbyf_gril_btn"
+                    style="@style/T4"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center"
+                    android:text="@string/nearbyf_grils" >
+                </TextView>
+            </LinearLayout> -->
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/nearbyf_view_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" 
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</FrameLayout>

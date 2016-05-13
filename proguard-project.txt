@@ -1,0 +1,117 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclassmembers
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-dontshrink
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+-keepattributes *Annotation*
+-keepattributes com.renren.mobile.x2.core.db.Column
+-keepattributes com.renren.mobile.x2.core.db.Table
+-keepattributes com.renren.mobile.x2.core.orm.ORM
+-keepattributes com.renren.mobile.x2.core.xmpp.XMLMapping
+-keepattributes com.renren.mobile.x2.network.talk.Request
+-keepattributes com.renren.mobile.x2.utils.ViewMapping
+-keepattributes com.renren.mobile.x2.utils.ServiceMapping
+
+# Remove all android logcat statements
+-assumenosideeffects public class android.util.Log {
+    public static int d(...);
+    public static int w(...);
+    public static int e(...);
+    public static int i(...);
+    public static int v(...);
+    public static int wtf(...);
+}
+
+# skip android support package
+-dontwarn android.support.v4.**
+
+-dontwarn Pinguo.Android.SDK.**
+
+-dontwarn net.afpro.**
+
+-keep class net.afpro.** {
+  *;
+}
+
+-keep class com.renren.mobile.x2.core.** {
+    *;
+}
+
+-keep class com.renren.mobile.x2.db.** {
+    *;
+}
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.support.v4.**
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.view.View
+-keep public class * extends android.preference.Preference
+
+-keep public class * extends android.view.View {
+    public <init>(android.content.Context);
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+    public void set*(...);
+}
+
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+
+-keepclassmembers class **.R$* {
+   	*;
+}
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}

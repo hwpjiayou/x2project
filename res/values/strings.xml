@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="red">#c41313</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <!--公共 -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    
+     <!--聊天-->
+    <string name="chat_info">聊天详情</string>
+    <string name="chat_tip">提示</string>
+    <string name="chat_clear_messages">清除聊天记录</string>
+    <string name="chat_clear_cloud_messages">同时删除云端聊天记录</string>
+    <string name="chat_get_cloud_messages">获取云端聊天记录</string>
+    <string name="chat_get_last_cloud_messages">获取最近300条的云端聊天记录并覆盖本地</string>
+    <string name="chat_clear_cloud_messages_error">当前网络不可用,不可以清空云端聊天记录</string>
+    <string name="chat_record_rest">休息一会儿</string>
+    <string name="chat_emotion_cool">炫酷表情:</string>
+    <string name="chat_resend">重新发送</string>
+    <string name="chat_copy_message">复制消息</string>
+    <string name="chat_del_message">删除消息</string>
+    <string name="chat_redownload">重新下载</string>
+    <string name="chat_del_voice_message">删除语音消息</string>
+    <string name="chat_voice">语音</string>
+    <string name="chat_flashimage">炫酷表情</string>
+    <string name="chat_image">图片</string>
+    <string name="chat_emotion">表情</string>
+    <string name="chat_unread_num">条未读消息;</string>
+    <string name="chat_resend_message">重新发送消息</string>
+    <string name="chat_record_cancel">松开取消发送</string>
+    <string name="chat_record_short">录制时间太短</string>
+    <string name="chat_record_end">语音录制即将结束</string>
+    <string name="chat_record_scroll">滑到这里取消发送</string>
+    <string name="chat_take_photo">拍照</string>
+    <string name="chat_album">相册</string>
+    <string name="chat_headphone">已切换至听筒模式</string>
+    <string name="chat_speaker">已切换至扬声器模式</string>
+    <string name="chat_imgfile_lost">图片文件丢失</string>
+    <string name="chat_whether">是否</string>
+    <string name="chat_voicefile_lost">本地音频文件丢失</string>
+    <string name="chat_copy">拷贝</string>
+    <string name="chat_del">删除</string>
+    <string name="chat_transmit">转发</string>
+    <string name="chat_no_more_messages">没有更多的聊天记录</string>
+    <string name="chat_onloading">正在获取…</string>
+    <string name="chat_send">发送</string>
+    <string name="chat_voice_talk">按住说话</string>
+    <string name="chat_voice_loosen">松开发送</string>
+    <string name="chat_voice_error">对不起,录音失败了,请您重新录一次</string>
+    <string name="chat_voice_long">录音时间太长</string>
+    <string name="chat_del_cool">删除炫酷表情消息</string>
+  
+    
+    
+    
+    <string name="like">赞</string>
+    <string name="replay">发消息</string>
+    <string name="app_name">X2</string>
+    
+    <string name="InputBar_Hit_1">输入聊天内容</string>
+    <string name="InputBar_Hit_2">请输入回复内容</string>
+    <string name="v1_searchfriends_hit">请输入你要搜索的姓名或者姓名索引</string>
+    <string name="chat_notify_name">X2</string>
+
+    
+    
+    
+    <string name="chat_send_msg_no_msg"> 不能输入空串</string>
+
+    <string name  = "feed_tab_name">新鲜事</string>
+    <!-- publisher & filter -->
+    <string name="publisher_dialog_title">您希望如何操作？</string>
+    <string name="publisher_dialog_take">拍摄新照片</string>
+    <string name="publisher_dialog_select_from_album">从相册中选取</string>
+    <string name="publisher_dialog_delete">删除照片</string>
+    <string name="publisher_filter_describtion">滤镜来自Camera360</string>
+    <string-array name="camera_filter_names">
+        <item>原图</item>
+        <item>增强</item>
+        <item>唯美</item>
+        <item>清新</item>
+        <item>美肤</item>
+        <item>风景</item>
+        <item>迷情</item>
+        <item>回忆</item>
+        <item>复古</item>
+        <item>夜间</item>
+        <item>手绘</item>
+        <item>彩绘</item>
+        <item>黑白</item>
+    </string-array>
+    <string-array name="camera_filter_effects">
+        <item>effect=renren_original</item>
+        <item>effect=renren_enhance</item>
+        <item>effect=renren_lightcolor_grace</item>
+        <item>effect=renren_lightcolor_sweet</item>
+        <item>effect=renren_cleanskin</item>
+        <item>effect=renren_hdrpro</item>
+        <item>effect=renren_lomo_fengye</item>
+        <item>effect=renren_lomo_qianhuiyi</item>
+        <item>effect=renren_retro_recall</item>
+        <item>effect=renren_night_enhance</item>
+        <item>effect=renren_sketch</item>
+        <item>effect=renren_colorsketch</item>
+        <item>effect=renren_bw</item>
+    </string-array>
+    <string-array name="publisher_random_text">
+        <item>这个家伙很懒，什么都没写！</item>
+        <item>你说我写点什么呢？</item>
+        <item>好无聊，好无聊哦！</item>
+        <item>思念是一种病！</item>
+        <item>我有一种不翔的预感！</item>
+        <item>人生自古谁无死，留取丹心照死磕！</item>
+    </string-array>
+    <string name="load_more_item_layout_1">加载更多</string>
+    <string name="need_input_login_captcha">验证码不能为空</string>
+    <string name="captcha_getting_failed">验证码获取失败</string>
+    <string name="nearbyf_grils">校花</string>
+    <string name="nearbyf_boys">校草</string>
+    <string name="nearbyf_all">全部</string>
+    <string name="refresher_pull_down_to_refresh">下拉刷新页面</string>
+    <string name="refresher_release_to_refresh">释放刷新页面</string>
+    <string name="refresher_releasing">刷新中...</string>
+    
+    <!-- 登录页面 -->
+    <string name="login_user_name_txt_hint">人人网账号</string>
+    <string name="login_renren_notice_1">人人网账号登录</string>
+    <string name="login_renren_notice_2">登录身份：</string>
+     <string name="login_renren_notice_3">欢迎你，</string>
+     <string name="login_x2">登录</string>
+    <string name="login_password_txt_hint">密码</string>
+    <string name="login_verify_code_txt_hint">验证码</string>
+    <string name="login_renren">人人登录</string>
+    <string name="login_asyn_info">同步资料</string>
+    <string name="login_syn_info_portrait">头像</string>
+    <string name="login_syn_info_title">当前学校</string>
+    <string name="login_complete_department_info_title">学校信息</string>
+    <string name="login_complete_department_info_school_hint">学校名称</string>
+    <string name="login_invite_friends_title">邀请好友</string>
+    <string name="login_loading">登录中，请稍侯</string>
+    <string name="login_failed">登录失败，请重试</string>
+    <string name="login_account_not_exist">账户不存在</string>
+    <string name="login_password_error">密码错误</string>
+    <string name="login_account_null">帐号不能为空</string>
+    <string name="login_password_null">密码不能为空</string>
+    <string name="login_account_useless">登录失败，邮箱或密码已注册私信</string>
+    <string name="login_account_toast2">帐号格式错误</string>
+    <string name="login_account_toast4">手机号格式错误</string>
+    <string name="login_account_toast5">获取验证码成功!</string>
+    <string name="login_account_toast6">获取验证码失败!</string>
+    <!-- 同步资料 -->
+    <string name="syninfo_head_edit_text_1">点击照片可</string>
+    <string name="syninfo_head_edit_text_2">编辑头像</string>
+    <string name="syninfo_enter_text">进入</string>
+    <string name="syninfo_title">同步人人网账号资料</string>
+    <string name="syninfo_head_img">头像</string>
+    <string name="syninfo_user_name">姓名</string>
+    <string name="syninfo_user_gender">性别</string>
+    <string name="syninfo_user_birthday">生日</string>
+    <string name="syninfo_user_school">学校</string>
+    <string name="syninfo_user_enrollYear">入学时间</string>
+    <string name="syninfo_user_notice">请先完善资料</string>
+    <string name="syninfo_user_notice_timeSelect">未来时间不可选</string>
+    <string name="syninfo_user_hint_noUserName">请填写真实姓名</string>
+    <string name="syninfo_user_hint_noGender">请填写你的性别</string>
+    <string name="syninfo_user_gender_dialog_title">请填写你的性别</string>
+    <string name="syninfo_user_hint_male">男</string>
+    <string name="syninfo_user_hint_female">女</string>
+    <string name="syninfo_user_hint_noSchool">请选择一所大学</string>
+    <string name="syninfo_user_hint_noBirthday">请填写你的生日</string>
+    <!-- 搜索学校 -->
+    <string name="search_school_name_hint">搜索</string>
+    <!-- 选择院系 -->
+    <string name="complete_department_schoolName">当前学校</string>
+    <string name="complete_department_collegeName">所在院系</string>
+    <string name="complete_department_enrollYear">入学时间</string>
+    <string name="complete_department_dialog_message">学校信息不可再修改，请确保无误，以免影响你的正常使用</string>
+    <string name="complete_department_dialog_ok">确定</string>
+    <string name="complete_department_dialog_rewrite">重填</string>
+    <string name="complete_department_notice">院系信息尚未完善</string>
+    <string name="complete_department_collegeDialog_title">请选择院系信息</string>
+    <string name="complete_department_enrollDialog_title">请选择入学时间</string>
+    <!-- 附近好友 -->
+    <!-- 附近好友 -->
+    <string name="nearby_dialog_wait">请等待</string>
+	<drawable name="transparent">#00000000</drawable>
+	<string name="nearby_alert_str">您没有开启定位，找不到身边的同学</string>
+	<string name="nearbyf_remeberdes_str">记住选择</string>
+	<string name="positive">去开启</string>
+	<string name="negative">取消</string>
+	<string name="accessnearbytext">你们也许选秀同一门课\n参见同一场活动\n住在同一个小区\n相见\n却不相识\n寻找\n你的身边\n</string>
+	<string name="accessnearbyfriend">我的身边</string>
+	<string name="nearbyf_top_text">身边</string>
+	<!-- 个人主页 -->
+	<string name="profile_changehead">您希望如何设置头像？</string>
+	<string name="profile_changehead_viewimg">查看大头像</string>
+	<string name="profile_changehead_local">拍摄新图片</string>
+	<string name="profile_changehead_camera">从相册中选取</string>
+	<string name="profile_changecover">您希望如何设置您的封面？</string>
+	<string name="profile_title">个人主页</string>
+	<string name="profile_attention">关注</string>
+	<string name="profile_fans">粉丝</string>
+	<string name="profile_chat">聊天</string>
+	<!-- 聊天对话列表-->
+	<string name="chatlist_chatmessage">查看聊天详情</string>
+	<string name="chatlist_deletechat">删除对话</string>
+	<string name="chatlist_warn">提示</string>
+	<string name="chatlist_warncontent">您确定要删除此对话并清空此对话的所有记录吗?</string>
+	<string name="chatlist_ensure">确定</string>
+	<string name="chatlist_cancel">取消</string>
+	<string name="chatlist_yesterday">昨天</string>
+	<string name="chatlist_theday_before">前天</string>
+	<!-- 大图预览-->
+	<string name="imageviewer_send">发送</string>
+	<string name="imageviewer_save">保存</string>
+	<string name="imageviewer_share_renren">分享到人人网</string>
+	<string name="imageviewer_transfer">转给</string>
+	<string name="imageviewer_SDenable">SD卡不可用</string>
+	<string name="imageviewer_uploadimg_renren">上传图片到人人网手机相册</string>
+	<string name="imageviewer_ensure">确认</string>
+	<string name="imageviewer_sharefail">分享失败</string>
+	<string name="imageviewer_filesavefail">图片文件存储失败</string>
+	<string name="imageviewer_uploading_img">正在上传照片...</string>
+	<string name="imageviewer_img_uploading">照片上传中...</string>
+	<string name="imageviewer_java_1">存储卡已满，无法保存图片。</string>
+	<string name="imageviewer_java_2">存储卡被移除，无法保存图片。</string>
+	<string name="imageviewer_java_3">创建文件失败</string>
+	<string name="imageviewer_java_4">图片已保存至</string>
+	<string name="imageviewer_java_5">图片预览错误</string>
+	<string name="imageviewer_java_6">图片无法显示</string>
+	<string name="imageviewer_java_7">保存失败</string>
+	<string name="imageviewer_java_8">图片选择失败</string>
+	
+	<!-- 新鲜事页面 -->
+	<string name="feed_count_max">9999+</string>
+	<string name="feed_name">新鲜事</string>
+	<string name="top10_name">校园十大</string>
+	<string name="success_push">发送成功</string>
+	
+	<!-- 设置 -->
+	<string name="setting_news">消息提醒</string>
+	<string name="setting_privacy">隐私设置</string>
+	<string name="setting_share">分享到人人网</string>
+	<string name="setting_blacklist">黑名单</string>
+	<string name="setting_features">功能介绍</string>
+	<string name="setting_about">关于X2</string>
+	<string name="setting_feedback">使用反馈</string>
+	<string name="setting_evaluate">评价X2</string>
+	<string name="setting_clear">清除缓存</string>
+	<string name="setting_logout">退出登录</string>
+	<string name="setting_news_sound">声音提醒</string>
+	<string name="setting_news_vibrate">振动提醒</string>
+	<string name="setting_news_background">推送消息提醒</string>
+	<string name="setting_privacy_locale">通过位置搜索到我</string>
+	<string name="setting_about_1">版本号</string>
+	<string name="setting_about_2">检查更新</string>
+	<string name="setting_about_3">Copyright © 2006-2012</string>
+	<string name="setting_about_4">www.renren.com All Rights Reserved</string>
+	<string name="setting_clear_title">是否确定清除所有缓存</string>
+	<string name="setting_logout_title">是否确定退出当前的登录状态</string>
+	<string name="setting_blacklist_out">解除</string>
+	<string name="setting_blacklist_out_dialog">确认移出黑名单？</string>
+	<string name="setting_blacklist_out_succeeded">移出成功！</string>
+	<string name="setting_toggle_on">开启</string>
+	<string name="setting_toggle_off">关闭</string>
+	<!-- 评论界面 -->
+	<string name="comment">评论</string>
+	<string name="comment_addmore">加载较早的评论</string>
+	<string name="comment_jubao">    是否举报该用户</string>
+	<string name="comment_jubao_message">校内坚决反对色情、暴力、欺诈信息，我们会认真处理您的举报，保证校园纯洁、绿色的网络环境</string>
+	<string name="comment_jubao_toast">举报成功，我们会及时处理这个问题</string>
+	<string name="comment_jubao_yes">是</string>
+	<string name="comment_jubao_no">否</string>
+	<string name="comment_item">what you want me</string>
+	<string name="copy">复制内容</string>
+	<string name="delete">删除评论</string>
+	
+	
+    <!-- publisher定位界面类型名称 -->
+    <string-array name="publisher_location_tye_names">
+        <item>草场</item>
+        <item>教学楼</item>
+        <item>食堂</item>
+        <item>图书馆</item>
+        <item>超市</item>
+        <item>泳池</item>
+        <item>体育馆</item>
+        <item>活动中心</item>
+        <item>其他</item>
+    </string-array>
+</resources>

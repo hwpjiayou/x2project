@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/cdw_chat_switch_toast" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center" 
+    android:paddingTop="2dip"
+    android:paddingBottom="2dip"
+    android:layout_marginTop="4dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:visibility="gone">
+  <ImageView  
+      android:layout_width="32dip" 
+      android:layout_height="32dip" 
+       android:src="@drawable/test_switch_method_toast_speaker"/>
+      />
+  <TextView 
+      android:id="@+id/cdw_chat_switch_toast_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+      android:paddingLeft="6dip" 
+      android:paddingRight="6dip" 
+      android:textSize="12sp"
+      android:text="@string/chat_speaker" 
+      android:textColor="#ffffff"/>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000"
+    android:id="@+id/userinfo_popup">
+    <TextView 
+        android:id="@+id/profile_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dip"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/profile_changehead"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+     <Button
+                android:id="@+id/profile_changeimg_viewimg"
+                android:layout_width="fill_parent"
+                android:layout_height="46dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dip"
+                android:background="#2285da"
+                android:gravity="center"
+                android:text="@string/profile_changehead_viewimg"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+     <Button 
+                android:id="@+id/profile_changeimg_local"
+                android:layout_width="fill_parent"
+                android:layout_height="46dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dip"
+                android:background="#2285da"
+                android:gravity="center"
+                android:text="@string/profile_changehead_local"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+     <Button
+                android:id="@+id/profile_changeimg_camera"
+                android:layout_width="fill_parent"
+                android:layout_height="46dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dip"
+                android:background="#2285da"
+                android:gravity="center"
+                android:text="@string/profile_changehead_camera"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+     <Button
+                android:id="@+id/profile_changeimg_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="46dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dip"
+                android:background="#2285da"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+</LinearLayout>

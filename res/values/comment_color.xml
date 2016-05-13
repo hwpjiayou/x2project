@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="GridViewBackground">#D1EEEE</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#A4D3EE</color>
+    <color name="yellow">#EEEE00</color>
+    <color name="gread">#32CD32</color>
+    <color name="black">#1E1E1E</color>
+    <color name="origeall">#D2691E</color>
+    <color name="pick">#FFC0CB</color>
+    <color name="wiate">#FFFFFF</color>
+    <color name="other">#D15FEE</color>
+    <color name="feed_ti">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

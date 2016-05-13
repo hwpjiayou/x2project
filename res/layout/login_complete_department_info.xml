@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <!-- 学校名称 -->
+
+     <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dip"
+    			android:layout_marginRight="15dip"
+                android:background="@drawable/item_single_bg_selector"
+                android:layout_marginTop="21dip"
+                >
+
+                <TextView
+                    style="@style/T15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/complete_department_schoolName"
+                    />
+
+                <TextView
+                    style="@style/T17"
+                    android:id="@+id/complete_department_school_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="35dp"
+                    />
+
+            </FrameLayout>
+
+    
+        <FrameLayout
+            	android:id="@+id/complete_department_college_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dip"
+    			android:layout_marginRight="15dip"
+                android:background="@drawable/item_single_bg_selector"
+                android:layout_marginTop="21dip"
+                 >
+
+
+    <!-- 入学年份 -     -->
+
+                <TextView
+                    style="@style/T15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/complete_department_collegeName"
+                    />
+
+                <TextView
+                    style="@style/T17"
+                    android:id="@+id/complete_department_collegeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="35dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="3dp"
+                    android:duplicateParentState="true"
+                    android:visibility="visible"
+                    android:src="@drawable/next_arrow_selector" />
+            </FrameLayout>
+
+    <!-- 入学年份 -->
+
+    
+           <FrameLayout
+               	android:id="@+id/complete_department_enrollYear_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dip"
+    			android:layout_marginRight="15dip"
+                android:background="@drawable/item_single_bg_selector"
+                android:layout_marginTop="21dip"
+                 >
+
+                <TextView
+                    style="@style/T15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/complete_department_enrollYear"
+                    />
+
+                <TextView
+                    style="@style/T17"
+                    android:id="@+id/complete_department_enrollYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="35dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="3dp"
+                    android:duplicateParentState="true"
+                    android:visibility="visible"
+                    android:src="@drawable/next_arrow_selector" />
+            </FrameLayout>
+
+   
+
+</LinearLayout>

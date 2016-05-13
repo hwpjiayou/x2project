@@ -1,0 +1,12 @@
+<resources>
+    
+  
+       <declare-styleable name="hwp_comment_main_commentlist_baselistview">
+        <attr name="content"
+              format="integer"/>
+        <attr name="head"
+              format="integer"/>
+        <attr name="handle"
+              format="integer"/>
+    </declare-styleable>  
+</resources>

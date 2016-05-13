@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:voice="http://schemas.android.com/apk/res/com.renren.mobile.x2"
+    android:id="@+id/publisher_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 顶部的三个Button -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/v1_titlebar_bg"
+        android:orientation="horizontal" >
+
+        <!-- android:background="@drawable/publisher_titlebar_bg" -->
+
+        <ImageButton
+            android:id="@+id/publisher_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:background="#00000000"
+            android:src="@drawable/publisher_cancel_selector" />
+
+        <ImageButton
+            android:id="@+id/publisher_type_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#00000000"
+            android:src="@drawable/publisher_type_selector" />
+
+        <Button
+            android:id="@+id/publisher_finish"
+            android:textColor="@color/publisher_text_color_selector"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/publisher_send_selector"
+            android:text="发送" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/v1_titlebar_bg" >
+
+        <!-- 文字输入区，各种按钮，表情，和语音 -->
+
+        <LinearLayout
+            android:id="@+id/publisher_lower_layer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <!-- 文字输入和旁边的三个按钮 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <!--  -->
+                <!-- 文字输入 -->
+
+                <com.renren.mobile.x2.emotion.EmotionEditText
+                    android:id="@+id/publisher_emotion_edittext"
+                    style="@style/T1"
+                    android:layout_width="220dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/publisher_exittext_bg"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="4dip"
+                    android:padding="8dip"
+                    android:textCursorDrawable="@null" >
+                </com.renren.mobile.x2.emotion.EmotionEditText>
+                <!-- 拍照和照片预览 -->
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginRight="10dip" >
+
+                    <ImageView
+                        android:id="@+id/publisher_camera"
+                        android:layout_width="72dip"
+                        android:layout_height="72dip"
+                        android:src="@drawable/publisher_camera_selector" />
+
+                    <ImageButton
+                        android:id="@+id/publisher_lbs"
+                        android:layout_width="34dip"
+                        android:layout_height="34dip"
+                        android:layout_below="@+id/publisher_camera"
+                        android:layout_marginTop="8dip"
+                        android:background="#00000000"
+                        android:src="@drawable/publisher_location_unable_selector" />
+
+                    <ImageButton
+                        android:id="@+id/publisher_voice"
+                        android:layout_width="34dip"
+                        android:layout_height="34dip"
+                        android:layout_alignRight="@+id/publisher_camera"
+                        android:layout_below="@+id/publisher_camera"
+                        android:layout_marginTop="8dip"
+                        android:background="#00000000"
+                        android:src="@drawable/publisher_voice_unable_selector" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 表情 -->
+            <!-- 表情面板，语音 -->
+
+            <LinearLayout
+                android:id="@+id/publisher_bottom_conteiner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/publisher_b5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="#00000000"
+                        android:src="@drawable/publisher_emotion_selector" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/publisher_plugin_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/publisher_emotion_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+                    </LinearLayout>
+
+                     <com.renren.mobile.x2.components.publisher.voice.PublishVoiceView
+                         android:id="@+id/publisher_voice_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="240dip"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                         android:orientation="vertical"
+                        android:background="@drawable/v1_publish_voice_main_bg"
+                        voice:alert_line_color="#ef5c30"
+                        voice:background_color="#d84a5154"
+                        voice:cancel_send="@string/chat_record_cancel"
+                        voice:line_color="#ffdb00"
+                        voice:move_to_cancel="@string/chat_record_scroll"
+                        voice:record_less="@string/chat_record_short"
+                        voice:record_over="@string/chat_record_end" 
+                       />
+                     
+<!--                     <LinearLayout -->
+<!--                         android:id="@+id/publisher_voice_container" -->
+<!--                         android:layout_width="fill_parent" -->
+<!--                         android:layout_height="200dip" -->
+<!--                         android:background="#55ff0000" -->
+<!--                         android:orientation="vertical" -->
+<!--                         android:visibility="gone" > -->
+<!--                     </LinearLayout> -->
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 类型选择器覆层 -->
+
+        <LinearLayout
+            android:id="@+id/publisher_pop"
+            android:layout_width="fill_parent"
+            android:layout_height="166dip	"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:background="@drawable/publisher_pop_bg"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingLeft="14dip"
+            android:paddingRight="14dip"
+            android:paddingTop="10dip"
+            android:visibility="gone" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/publisher_type_pager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

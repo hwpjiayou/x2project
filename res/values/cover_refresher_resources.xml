@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cover_refresher_header_height">200dp</dimen>
+    <dimen name="cover_refresher_cover_height">400dp</dimen>
+    <dimen name="cover_refresher_refresh_threshold">200dp</dimen>
+
+    <declare-styleable name="CoverWrappedListView">
+        <attr name="cover_height" format="dimension"/>
+        <attr name="space_height" format="dimension"/>
+    </declare-styleable>
+</resources>

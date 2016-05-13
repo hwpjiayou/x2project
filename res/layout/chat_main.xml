@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:voice="http://schemas.android.com/apk/res/com.renren.mobile.x2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/v1_chat_main_bg">
+    
+    <LinearLayout
+        android:id="@+id/cdw_chat_main_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" > <!-- blue -->
+
+            <LinearLayout
+                android:id="@+id/id_framelayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" > <!-- green -->
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0" >
+
+                    <!-- 聊天内容列表 -->
+
+                    <com.renren.mobile.x2.components.chat.view.ListViewWarpper
+                        android:id="@+id/cdw_chat_main_chatlist_baselistview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                         />
+
+                    <com.renren.mobile.x2.components.chat.view.VoiceView
+                        android:id="@+id/chatmain_voiceview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:visibility="invisible"
+                        voice:alert_line_color="#ef5c30"
+                        voice:background_color="#d84a5154"
+                        voice:cancel_send="@string/chat_record_cancel"
+                        voice:line_color="#ffdb00"
+                        voice:move_to_cancel="@string/chat_record_scroll"
+                        voice:record_less="@string/chat_record_short"
+                        voice:record_over="@string/chat_record_end" />
+                    <!-- 提示切换成听筒或扬声器 -->
+                    <include layout="@layout/chat_main_switch_speaker" />
+                </FrameLayout>
+                <com.renren.mobile.x2.components.chat.view.InputBar
+                android:id="@+id/chatmain_inputbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+            </LinearLayout>
+
+            <!-- <View -->
+            <!-- android:layout_width="fill_parent" -->
+            <!-- android:layout_height="4dip" -->
+            <!-- android:background="@drawable/title_shadow" /> -->
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- 不可点击浮层 -->
+
+    <LinearLayout
+        android:id="@+id/cdw_chat_main_unable_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#55000000" />
+
+</LinearLayout>

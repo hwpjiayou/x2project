@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="6dp"
+    android:layout_gravity="center"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+</LinearLayout><!--
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip" >
+		<ImageView 
+		    android:id="@+id/nearbyf_user_head_img"
+		    android:layout_width="50dip"
+		    android:layout_height="50dip"
+		    android:src="@drawable/test_default"
+		    android:layout_alignParentLeft="true"
+		    />
+
+        <TextView
+            android:id="@+id/nearbyf_publishtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="12sp" 
+            android:text="昨天12:00"
+            />
+        <TextView
+            android:id="@+id/nearbyf_status"
+            android:layout_width="200dip"
+            android:layout_height="200dip"
+            android:ellipsize="end"
+            android:maxEms="8"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/nearbyf_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/nearbyf_user_head_img"
+            android:text="测试姓名"
+            android:textSize="12sp" />
+        
+    </RelativeLayout>
+-->

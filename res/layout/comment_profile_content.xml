@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/wiate"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+
+        <!-- timeline -->
+
+        <RelativeLayout
+            android:id="@+id/comment_left_bottom_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" 
+            >
+
+            <!-- 头部竖线 -->
+
+            <ImageView
+                android:id="@+id/comment_bottom_vertical_line"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="24dip"
+                android:background="@drawable/timeline"
+                android:paddingBottom="8dip" />
+            <!-- 设置类型图片 -->
+
+            <ImageView
+                android:id="@+id/comment_type_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dip"
+                android:src="@drawable/timeline_tag1" />
+            <!-- 竖线 -->
+
+            <ImageView
+                android:id="@+id/feed_vertical_line"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/comment_type_img"
+                android:layout_marginLeft="24dip"
+                android:background="@drawable/timeline"
+                android:paddingTop="-8dip" />
+            <!-- 最后一个Item的圆球 -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/feed_vertical_line"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <!-- 评论内容列表 -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:paddingBottom="12dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical" >
+
+                        <!-- Tag展示 -->
+
+                        <TextView
+                            android:id="@+id/comment_tag_text"
+                            style="@style/T2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="逃课:"
+                            android:visibility="visible" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp" >
+
+                            <TextView
+                                android:id="@+id/time"
+                                style="@style/T6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingRight="0dip"
+                                android:text="时间 " />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="12dp"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:id="@+id/comment_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/v1_comment_comments" />
+
+                            <TextView
+                                android:id="@+id/comment_image_count"
+                                style="@style/T7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:maxEms="5"
+                                android:paddingTop="2dip"
+                                android:text="999+" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:id="@+id/comment_delete"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/v1_comment_delete" />
+
+                            <TextView
+                                android:id="@+id/comment_delete_count"
+                                style="@style/T7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:maxEms="5"
+                                android:paddingTop="2dip"
+                                android:text="999+" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:id="@+id/content"
+                        style="@style/T2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="评论" />
+
+                    <ImageView
+                        android:id="@+id/content_like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="0dp"
+                        android:src="@drawable/test_comment_like"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/content_image"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="5sp"
+                    android:background="@drawable/feed_bitmap_bg"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/test_default"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/content_voice"
+                    android:layout_width="86dip"
+                    android:layout_height="38dip"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/feed_voice_bg"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/voice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/voice_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

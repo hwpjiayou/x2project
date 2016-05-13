@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/imageview_layout"
+    android:clickable="true"
+    android:background="#ff000000" >
+
+    <com.renren.mobile.x2.components.imageviewer.ImageNavigatorView
+        android:id="@+id/full_image_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:spacing="30dip"
+        android:unselectedAlpha="1.0" />
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/test_imageviewer_titile_bg"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/title_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/test_imageviewer_head_more_image_press"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="图片"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/title_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/test_userinfo_nextpage_default" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/operation_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:layout_gravity="bottom"
+        android:background="#000000" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:orientation="horizontal" 
+            android:layout_marginLeft="10dip">
+
+            <ImageView
+                android:id="@+id/turn_left"
+                android:layout_width="74dip" android:layout_height="34dip"
+                android:clickable="true"
+                android:scaleType="center"
+                android:background="#000000" 
+                android:src="@drawable/test_imageviewer_head_upload_turn_left" />
+        </LinearLayout> 
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal" 
+            android:layout_marginRight="10dip">
+
+            <ImageView
+                android:id="@+id/turn_right"
+                android:layout_width="74dip" android:layout_height="34dip"
+                android:clickable="true"
+                android:scaleType="center"
+                android:background="#000000" 
+                android:src="@drawable/test_imageviewer_head_upload_turn_right" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/save_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dip"
+        android:layout_marginBottom="12dip"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/imgeview_save_button"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/default_image_loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/test_imageviewer_default_image_loading" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip" >
+
+            <ProgressBar
+                android:layout_width="14dip"
+                android:layout_height="14dip"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dip"
+                android:text="正在加载。。。。"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

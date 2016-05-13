@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:record="http://schemas.android.com/apk/res/com.renren.mobile.x2" >
+
+    <!-- up frame start -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/v1_chat_inputbar_main"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/inputbar_plugins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dip"
+            android:background="@drawable/inputbar_plugins" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dip"
+            android:gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/inputbar_emotions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/inputbar_emotions"
+                android:gravity="center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/inputbar_keyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/inputbar_keyboard"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="1dip"
+            android:layout_weight="1.0"
+            android:paddingBottom="7dip"
+            android:paddingTop="7dip" >
+
+            <com.renren.mobile.x2.emotion.EmotionEditText
+                android:id="@+id/inputbar_textedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/v1_chat_inputbar_inputtextbg"
+                android:gravity="center_vertical"
+                android:hint="@string/InputBar_Hit_1"
+                android:maxLines="3"
+                android:minHeight="36dip"
+                style="@style/T1"
+                android:textColorHint="@color/hint_color" />
+
+            <view
+                android:id="@+id/inputbar_record"
+                style="@style/inputbar_record_btn_style"
+                android:layout_width="match_parent"
+                android:layout_height="36dip"
+                android:layout_gravity="center"
+                class="com.renren.mobile.x2.components.chat.view.AbstractInputBar$RecordButton"
+                android:background="@drawable/inputbar_record_botton_bg"
+                android:gravity="center"
+                android:visibility="gone"
+                record:text_down="@string/chat_voice_loosen"
+                record:text_up="@string/chat_voice_talk" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="2dip"
+            android:gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/inputbar_voiceinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/inputbar_voicebutton" />
+
+            <ImageButton
+                android:id="@+id/inputbar_textinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/inputbar_textbutton"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/inputbar_send"
+                android:layout_width="54dip"
+                android:layout_height="48dip"
+                style="@style/T4"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/publisher_send_selector"
+                android:gravity="center"
+                android:text="@string/chat_send"
+                 android:visibility="invisible"
+                 />
+        </FrameLayout>
+    </LinearLayout>
+    <!-- up frame end -->
+
+    <LinearLayout
+        android:id="@+id/inputbar_groups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/inputbar_plugin_viewgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eaeaea"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <com.renren.mobile.x2.components.chat.view.PluginGroup
+                android:id="@+id/inputbar_plugin_group"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/chat_inputbar_plugin_and_emotion" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/inputbar_emotions_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eaeaea"
+            android:orientation="vertical"
+            android:visibility="gone" >
+        </LinearLayout>
+        <!-- 这个地方添加表情  有程序添加 -->
+        <!-- <View -->
+        <!-- android:id="@+id/inputbar_emotions_group" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="240dip" -->
+        <!-- android:gravity="center" -->
+        <!-- /> -->
+    </LinearLayout>
+
+</merge>

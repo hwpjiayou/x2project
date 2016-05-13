@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:paddingBottom="6dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="6dip" >
+
+    <FrameLayout
+        android:layout_width="66dip"
+        android:layout_height="66dip" >
+
+        <ImageView
+            android:id="@+id/setting_blacklist_item_head"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/test_widget_default_head" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/feed_head_bg" />
+    </FrameLayout>
+    
+    <TextView
+        android:id="@+id/setting_blacklist_item_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dip"
+        android:singleLine="true"
+        android:text="大桥未久"
+        style="@style/T11" />
+    
+    <Button
+        android:id="@+id/setting_blacklist_item_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/setting_blacklist_out"
+        android:padding="2dip"
+        style="@style/T1" />
+
+</LinearLayout>

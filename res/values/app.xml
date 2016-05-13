@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="from">110</string>
+    <string name="pubdate">20121011</string>
+    <string name="softid">100001</string>
+    <string name="apikey">55f6c278e72d40ab96bc1d7d78fe865b</string>
+    <string name="secretkey">bc9ea38417f541caa41b92723caeb9f5</string>
+    <string name="appid">208079</string>
+    <string name="subproperty">0</string>
+</resources>

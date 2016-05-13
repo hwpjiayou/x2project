@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:voice="http://schemas.android.com/apk/res/com.renren.mobile.x2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fdfdfe"
+    android:orientation="vertical" 
+    >
+<!--    <com.renren.mobile.x2.components.comment.CommentEmptyViewPopwindow
+            android:id="@+id/comment_popview"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            >
+           <LinearLayout 
+               android:id="@+id/popwindow_Linear"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               
+               <ImageView 
+                   android:id="@+id/emptyView"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_horizontal"
+                   android:src="@drawable/v1_home_menu_logo"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" 
+                   android:text="来了不说些什么！不太好吧。"
+                   android:textColor="@color/red"
+                    android:layout_gravity="center_horizontal"/>
+               
+           </LinearLayout>
+              
+          </com.renren.mobile.x2.components.comment.CommentEmptyViewPopwindow> -->
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+         
+          
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1.0" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0" >
+
+                        <com.renren.mobile.x2.view.RefresherListView
+                            android:id="@+id/listview"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/black" />
+
+                        <com.renren.mobile.x2.components.chat.view.VoiceView
+                            android:id="@+id/chatmain_voiceview"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center"
+                            android:visibility="invisible"
+                            voice:alert_line_color="#ef5c30"
+                            voice:background_color="#d84a5154"
+                            voice:cancel_send="松开取消发送"
+                            voice:line_color="#ffdb00"
+                            voice:move_to_cancel="滑动到此取消发送"
+                            voice:record_less="语音时间过短"
+                            voice:record_over="语音录制即将结束" />
+                        <!-- 提示切换成听筒或扬声器 -->
+
+                        <include layout="@layout/chat_main_switch_speaker" />
+                    </FrameLayout>
+
+                    <com.renren.mobile.x2.components.chat.view.InputBar
+                        android:id="@+id/chatmain_inputbar"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <!-- 不可点击浮层 -->
+
+        <ProgressBar
+            android:id="@+id/comment_progressBar"
+            style="@style/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/cdw_chat_main_unable_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#55000000" />
+
+</LinearLayout>

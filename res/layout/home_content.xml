@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.renren.mobile.x2.components.home.ContentLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:x2="http://schemas.android.com/apk/res/com.renren.mobile.x2"
+        x2:left_offset="@dimen/home_content_left_offset"
+        x2:right_offset="@dimen/home_content_right_offset"
+        x2:track="horizontal"
+        x2:tap_back_area="left|right"
+        android:id="@+id/container"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+</com.renren.mobile.x2.components.home.ContentLayout>

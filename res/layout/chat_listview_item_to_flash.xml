@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 从本地發送的文本消息 start -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_voice_flashmessage_linearlayout"
+    android:layout_width="150dip"
+    android:layout_height="150dip"
+    android:layout_marginRight="5dip" >
+
+    <ImageView
+        android:id="@+id/chat_voice_flashmessage_imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/chat_voice_flashmessage_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="test11"
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+</LinearLayout>

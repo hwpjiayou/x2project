@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 从远端发送过来的文本消息 start -->
+<!-- 图片 -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/chat_voice_imagemessage_linearlayout" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:gravity="center">
+    <com.renren.mobile.x2.components.chat.view.BaseImageView 
+        android:id="@+id/chat_voice_imagemessage_imageview" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center" 
+        android:visibility="gone"/>
+</LinearLayout>

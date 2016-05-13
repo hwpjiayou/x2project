@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:scrollbars="vertical" >
+
+        <!-- scroll begin -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="24dip"
+            android:layout_marginRight="24dip"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="14dp"
+                android:layout_marginTop="22dip" >
+
+                <ImageView
+                    android:id="@+id/edit_head_imageview"
+                    android:layout_width="124dip"
+                    android:layout_height="124dip"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:layout_width="124dip"
+                    android:layout_height="124dip"
+                    android:layout_gravity="center"
+                    android:background="@drawable/syn_info_head_bg"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="24dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/T13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:text="@string/syninfo_head_edit_text_1" />
+
+                    <TextView
+                        style="@style/T13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:text="@string/syninfo_head_edit_text_2" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/user_name_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/item_top_bg_selector" >
+
+                <TextView
+                    style="@style/T15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/syninfo_user_name" />
+
+                <TextView
+                    android:id="@+id/userName_textview"
+                    style="@style/T17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="35dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/user_gender_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/item_middle_bg_selector" >
+
+                <TextView
+                    style="@style/T15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/syninfo_user_gender" />
+
+                <TextView
+                    android:id="@+id/userGender_textview"
+                    style="@style/T17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="35dp" />
+
+                <ImageView
+                    android:id="@+id/gender_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="3dp"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/next_arrow_selector"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/user_birthday_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="21dip"
+                android:background="@drawable/item_bottom_bg_selector" >
+
+                <TextView
+                    style="@style/T15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/syninfo_user_birthday" />
+
+                <TextView
+                    android:id="@+id/userBirthday_textview"
+                    style="@style/T17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="35dp" />
+
+                <ImageView
+                    android:id="@+id/birthday_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="3dp"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/next_arrow_selector" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/user_school_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/item_top_bg_selector" >
+
+                <TextView
+                    style="@style/T15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/syninfo_user_school" />
+
+                <TextView
+                    android:id="@+id/userSchool_textview"
+                    style="@style/T17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="35dp" />
+
+                <ImageView
+                    android:id="@+id/school_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="3dp"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/next_arrow_selector" />
+            </FrameLayout>
+
+            <!-- 所在院系 -->
+
+            <FrameLayout
+                android:id="@+id/user_department_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/item_middle_bg_selector" >
+
+                <TextView
+                    style="@style/T15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/complete_department_collegeName" />
+
+                <TextView
+                    android:id="@+id/userDepartment_textview"
+                    style="@style/T17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="35dp" />
+
+                <ImageView
+                    android:id="@+id/department_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="3dp"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/next_arrow_selector" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/user_schoolTime_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/item_bottom_bg_selector" >
+
+                <TextView
+                    style="@style/T15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/syninfo_user_enrollYear" />
+
+                <TextView
+                    android:id="@+id/userTime_textview"
+                    style="@style/T17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="35dp" />
+
+                <ImageView
+                    android:id="@+id/enroll_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="3dp"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/next_arrow_selector" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/sys_info_jump_in"
+                style="@style/T14"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/setting_btn_selector"
+                android:text="@string/syninfo_enter_text" />
+        </LinearLayout>
+    </ScrollView>
+    <!-- scroll end -->
+
+</FrameLayout>

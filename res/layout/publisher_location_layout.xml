@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center_horizontal"
+              android:background="#e6ffffff">
+    <FrameLayout android:layout_height="142dip"
+                 android:layout_width="fill_parent"
+                 >
+        <ImageView android:id="@+id/location_cover"
+                   android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/v1_publisher_location_cover"/>
+        <FrameLayout android:id="@+id/location_info"
+                     android:layout_height="wrap_content"
+                     android:layout_width="238dip"
+                     android:layout_marginTop="32dip"
+                     android:orientation="horizontal"
+                     android:layout_gravity="center_horizontal">
+            <LinearLayout android:layout_height="34dip"
+                          android:layout_width="200dip"
+                          android:layout_gravity="center_vertical"
+                          android:orientation="horizontal"
+                          android:layout_marginLeft="38dip">
+                <EditText android:id="@+id/location_info_name"
+                          android:layout_width="166dip"
+                          android:layout_height="34dip"
+                          android:paddingLeft="18dip"
+                          android:singleLine="true"
+                          style="@style/T3"
+                          android:background="@drawable/v1_publisher_location_edit_bg"/>
+                <FrameLayout android:layout_height="34dip"
+                             android:layout_width="34dip">
+                    <Button android:id="@+id/location_info_select_btn"
+                            android:layout_height="34dip"
+                            android:layout_width="34dip"
+                            android:background="@drawable/v1_publisher_location_select_btn_selector"/>
+                    <Button android:id="@+id/refresh_location_btn"
+                            android:layout_height="34dip"
+                            android:layout_width="34dip"
+                            android:background="@drawable/v1_publisher_location_refresh_selector"/>
+                    <com.renren.mobile.x2.components.chat.view.ProgressImageButton
+                            android:id="@+id/refresh_location_rote"
+                            android:layout_height="fill_parent"
+                            android:layout_width="fill_parent"
+                            android:padding="10dip"
+                            android:src="@drawable/v1_publisher_location_refresh_rote"
+                            android:background="#00000000"/>
+                </FrameLayout>
+            </LinearLayout>
+            <ImageView android:id="@+id/location_info_user_head"
+                       android:layout_height="54dip"
+                       android:layout_width="54dip"
+                       android:padding="6dip"/>
+            <ImageView
+                       android:layout_height="54dip"
+                       android:layout_width="54dip"
+                       android:background="@drawable/cover_head_bg"/>
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_height="fill_parent"
+                 android:layout_width="fill_parent"
+            >
+        <android.support.v4.view.ViewPager
+                android:id="@+id/publisher_location_type_pager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#e6ffffff"/>
+        <ImageView android:layout_height="wrap_content"
+                   android:layout_width="fill_parent"
+                   android:background="@drawable/v1_publisher_location_hachures"/>
+    </FrameLayout>
+</LinearLayout>
